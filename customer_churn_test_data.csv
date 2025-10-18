@@ -1,0 +1,1001 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+TEST0001,Male,0,No,No,70,No,No phone service,No,No,Yes,Yes,Yes,No internet service,No,Two year,Yes,Credit card,60.12,1130.33,No
+TEST0002,Female,0,Yes,No,35,No,No phone service,No,No,No,No,No,No internet service,Yes,Month-to-month,No,Bank transfer,81.29,7637.73,Yes
+TEST0003,Male,0,No,Yes,54,Yes,No,DSL,No internet service,No internet service,Yes,No,No,No internet service,One year,No,Mailed check,68.28,2184.65,Yes
+TEST0004,Male,0,No,Yes,68,Yes,No phone service,DSL,Yes,No internet service,No internet service,Yes,No internet service,Yes,Two year,No,Bank transfer,110.14,3688.69,No
+TEST0005,Female,1,Yes,No,68,Yes,No phone service,No,No internet service,Yes,Yes,No,No,Yes,One year,Yes,Electronic check,49.48,212.45,Yes
+TEST0006,Female,0,No,No,17,No,No,Fiber optic,Yes,No,No internet service,No internet service,Yes,Yes,Month-to-month,No,Bank transfer,72.88,7266.3,No
+TEST0007,Female,1,No,Yes,70,Yes,Yes,DSL,No internet service,No internet service,No,No,Yes,No internet service,Month-to-month,Yes,Electronic check,95.96,6749.24,No
+TEST0008,Male,1,Yes,No,50,Yes,No,Fiber optic,Yes,No internet service,No internet service,Yes,Yes,No,Month-to-month,No,Bank transfer,84.2,8514.98,No
+TEST0009,Female,1,Yes,No,46,Yes,No,No,No,Yes,No,No,Yes,No,Two year,Yes,Electronic check,115.63,6153.65,Yes
+TEST0010,Male,1,No,Yes,37,No,Yes,No,Yes,Yes,No,No,No internet service,No internet service,Month-to-month,Yes,Credit card,24.26,7166.58,No
+TEST0011,Male,1,Yes,No,12,No,Yes,No,No,Yes,Yes,No internet service,Yes,No,One year,Yes,Credit card,93.5,4723.29,No
+TEST0012,Female,0,Yes,Yes,45,No,No phone service,Fiber optic,Yes,No,Yes,No,No,Yes,One year,No,Mailed check,68.29,4038.64,No
+TEST0013,Female,1,Yes,No,54,Yes,No phone service,DSL,Yes,No internet service,No internet service,Yes,No,No internet service,One year,Yes,Bank transfer,98.13,7833.97,Yes
+TEST0014,Female,0,No,Yes,68,Yes,No,DSL,Yes,No,Yes,No internet service,No internet service,Yes,One year,Yes,Bank transfer,45.36,4652.32,No
+TEST0015,Female,1,No,No,58,No,No phone service,Fiber optic,No internet service,No,No internet service,Yes,No,No,Month-to-month,No,Bank transfer,114.76,1789.22,No
+TEST0016,Female,0,Yes,No,1,No,Yes,No,No,No internet service,Yes,No,No internet service,No,Two year,No,Electronic check,84.7,8139.92,No
+TEST0017,Male,1,Yes,No,32,Yes,No,Fiber optic,No internet service,Yes,Yes,No internet service,Yes,Yes,Month-to-month,No,Credit card,77.61,3103.69,Yes
+TEST0018,Male,0,Yes,No,51,Yes,No,Fiber optic,No internet service,Yes,Yes,No,Yes,No internet service,Two year,No,Electronic check,103.81,3853.62,Yes
+TEST0019,Male,0,No,Yes,68,Yes,No phone service,Fiber optic,No,No internet service,Yes,No internet service,No,No internet service,One year,No,Electronic check,96.73,8169.9,Yes
+TEST0020,Female,1,Yes,Yes,2,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,No internet service,Two year,Yes,Credit card,79.28,6590.51,Yes
+TEST0021,Female,0,No,No,24,No,Yes,Fiber optic,No,Yes,No internet service,No,Yes,Yes,Two year,Yes,Mailed check,32.4,458.94,No
+TEST0022,Male,0,No,No,45,Yes,Yes,Fiber optic,No internet service,No internet service,No,No,No internet service,No internet service,One year,Yes,Electronic check,99.37,5321.4,No
+TEST0023,Female,0,Yes,Yes,52,No,No,No,No internet service,Yes,No,No internet service,No internet service,No internet service,One year,No,Electronic check,33.42,2307.37,Yes
+TEST0024,Female,0,Yes,Yes,38,Yes,Yes,DSL,No internet service,Yes,No internet service,No,No,Yes,One year,No,Mailed check,96.87,2658.68,No
+TEST0025,Male,1,Yes,No,17,Yes,Yes,Fiber optic,No internet service,No,No internet service,No,Yes,No,Two year,No,Electronic check,41.46,4720.92,Yes
+TEST0026,Male,0,No,Yes,44,Yes,No phone service,DSL,Yes,No,No internet service,No,No internet service,No,One year,Yes,Credit card,119.58,4745.56,Yes
+TEST0027,Female,0,Yes,Yes,45,No,No phone service,No,No,No internet service,Yes,No,No internet service,No internet service,Two year,No,Electronic check,37.56,8578.6,Yes
+TEST0028,Male,0,No,No,22,Yes,No phone service,Fiber optic,No internet service,No internet service,No internet service,Yes,No,No internet service,One year,No,Electronic check,95.09,7090.14,Yes
+TEST0029,Male,1,No,Yes,72,No,No,Fiber optic,No,No internet service,Yes,Yes,No,No internet service,One year,No,Credit card,30.03,2734.21,Yes
+TEST0030,Male,0,Yes,No,22,Yes,No phone service,Fiber optic,Yes,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,97.25,5721.67,Yes
+TEST0031,Male,0,No,Yes,30,Yes,No,No,No internet service,Yes,Yes,Yes,No,No internet service,One year,No,Credit card,72.54,1188.76,No
+TEST0032,Male,1,Yes,No,9,Yes,No,DSL,Yes,No internet service,No,No,No,No internet service,Month-to-month,Yes,Electronic check,62.0,6210.45,No
+TEST0033,Female,0,Yes,No,23,No,Yes,No,Yes,No,Yes,Yes,Yes,No,Two year,No,Electronic check,52.15,7086.89,Yes
+TEST0034,Female,1,Yes,Yes,67,Yes,No,No,No,Yes,Yes,No internet service,Yes,No,Two year,No,Bank transfer,34.82,1403.31,No
+TEST0035,Female,1,No,Yes,52,No,No phone service,DSL,Yes,Yes,No,Yes,Yes,No,One year,Yes,Electronic check,34.43,1380.28,No
+TEST0036,Male,1,Yes,Yes,19,Yes,No phone service,DSL,Yes,No internet service,No internet service,No internet service,Yes,No internet service,One year,Yes,Mailed check,35.68,5581.75,Yes
+TEST0037,Male,1,Yes,No,54,Yes,Yes,DSL,No internet service,No internet service,No,No,No,No internet service,One year,Yes,Electronic check,108.36,2756.19,No
+TEST0038,Female,0,Yes,No,47,No,Yes,DSL,No,Yes,No,Yes,Yes,No,Two year,Yes,Electronic check,74.03,2365.37,Yes
+TEST0039,Female,0,No,No,28,Yes,No,No,No internet service,No,No internet service,No internet service,Yes,No,Month-to-month,No,Mailed check,66.56,2170.55,No
+TEST0040,Male,1,No,No,25,No,Yes,DSL,No,No internet service,Yes,Yes,No internet service,No,One year,No,Credit card,52.84,4321.27,No
+TEST0041,Female,1,Yes,Yes,25,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,No internet service,Two year,No,Mailed check,54.11,4566.77,Yes
+TEST0042,Male,1,No,No,62,No,No phone service,DSL,No internet service,No internet service,Yes,No,No internet service,No,One year,No,Bank transfer,88.58,2800.75,No
+TEST0043,Female,0,No,No,41,No,Yes,No,No internet service,No,No,No,Yes,No,Two year,No,Credit card,87.83,6538.47,Yes
+TEST0044,Male,1,Yes,Yes,71,No,No,DSL,No internet service,No internet service,No,No internet service,No,No internet service,One year,No,Mailed check,31.95,2816.3,No
+TEST0045,Female,1,No,Yes,37,No,No,DSL,No,No,No,No,No,Yes,Month-to-month,No,Bank transfer,53.96,7910.97,No
+TEST0046,Female,0,No,No,48,Yes,No phone service,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,No,Mailed check,118.24,3796.93,Yes
+TEST0047,Female,0,No,Yes,28,Yes,No phone service,DSL,Yes,No internet service,No,Yes,No internet service,No internet service,Month-to-month,Yes,Mailed check,101.37,1011.44,Yes
+TEST0048,Female,0,Yes,No,60,No,No phone service,DSL,No internet service,No internet service,No,No internet service,No,Yes,Two year,No,Credit card,102.55,2718.46,No
+TEST0049,Female,0,No,Yes,4,No,Yes,No,No,No internet service,No,No internet service,Yes,No internet service,One year,Yes,Mailed check,108.09,2793.35,Yes
+TEST0050,Male,0,No,No,47,Yes,No phone service,No,No internet service,No,Yes,No internet service,No internet service,No,One year,No,Credit card,107.69,5820.64,Yes
+TEST0051,Male,1,No,No,56,No,Yes,DSL,No internet service,No internet service,No internet service,No internet service,Yes,Yes,Month-to-month,Yes,Bank transfer,69.45,2481.29,No
+TEST0052,Female,1,Yes,Yes,4,No,No phone service,No,No internet service,No,No internet service,No,Yes,No,One year,Yes,Credit card,103.62,8183.29,No
+TEST0053,Female,1,Yes,Yes,7,No,No phone service,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,Yes,Bank transfer,50.1,7596.85,No
+TEST0054,Male,1,No,Yes,36,No,No,No,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Electronic check,28.45,2203.06,No
+TEST0055,Female,1,Yes,No,46,No,No,Fiber optic,No internet service,Yes,No internet service,No,Yes,No,Month-to-month,No,Bank transfer,102.33,1676.99,No
+TEST0056,Female,0,No,No,14,Yes,Yes,No,No internet service,Yes,No,No,No,No internet service,Two year,Yes,Bank transfer,34.34,3843.43,No
+TEST0057,Male,1,No,Yes,4,No,No,Fiber optic,Yes,No,No,No internet service,No internet service,No internet service,One year,No,Bank transfer,70.6,569.22,Yes
+TEST0058,Male,0,No,Yes,42,No,No phone service,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card,57.8,4236.91,Yes
+TEST0059,Female,0,Yes,No,60,Yes,Yes,No,No internet service,No internet service,No,Yes,No internet service,Yes,One year,No,Electronic check,21.4,3694.34,No
+TEST0060,Male,1,Yes,Yes,6,No,Yes,Fiber optic,Yes,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Electronic check,22.44,7748.22,Yes
+TEST0061,Female,0,Yes,Yes,56,Yes,No phone service,DSL,No,No internet service,No internet service,No,No,Yes,Two year,Yes,Electronic check,100.44,6649.19,Yes
+TEST0062,Female,1,Yes,Yes,33,Yes,No phone service,Fiber optic,No internet service,No,No internet service,Yes,No internet service,Yes,Month-to-month,No,Bank transfer,97.34,1761.04,Yes
+TEST0063,Female,1,Yes,No,55,Yes,No,No,No,No,No,No,No internet service,No internet service,One year,No,Electronic check,54.18,4895.96,Yes
+TEST0064,Male,0,No,Yes,48,No,No phone service,No,Yes,No,No internet service,No,Yes,No,Month-to-month,Yes,Electronic check,61.21,6477.68,Yes
+TEST0065,Female,1,Yes,Yes,28,No,Yes,Fiber optic,No internet service,No internet service,No,No internet service,No internet service,Yes,Month-to-month,No,Bank transfer,105.65,4712.28,Yes
+TEST0066,Male,1,No,No,51,Yes,No,DSL,No,No internet service,Yes,No internet service,No internet service,Yes,One year,No,Bank transfer,39.8,7909.66,No
+TEST0067,Male,1,Yes,No,71,No,Yes,Fiber optic,Yes,No,No,Yes,No internet service,Yes,Two year,No,Credit card,79.45,3362.84,No
+TEST0068,Female,0,No,Yes,63,Yes,No,No,No internet service,No internet service,No internet service,No internet service,Yes,No,One year,Yes,Electronic check,80.88,3321.36,No
+TEST0069,Female,0,Yes,Yes,29,No,No phone service,DSL,No,Yes,No internet service,No,Yes,Yes,Month-to-month,Yes,Credit card,96.39,450.99,No
+TEST0070,Female,0,Yes,Yes,63,Yes,Yes,DSL,No internet service,Yes,No,No,Yes,No internet service,Month-to-month,No,Bank transfer,63.73,6245.31,No
+TEST0071,Female,1,No,No,10,No,No,No,No internet service,No internet service,No internet service,Yes,No,No internet service,One year,Yes,Credit card,87.37,5589.93,No
+TEST0072,Male,0,Yes,Yes,41,Yes,No phone service,DSL,Yes,Yes,Yes,No internet service,Yes,Yes,One year,Yes,Credit card,105.57,2024.64,Yes
+TEST0073,Male,1,No,Yes,52,Yes,No phone service,Fiber optic,No,No internet service,Yes,Yes,No,No internet service,One year,Yes,Bank transfer,58.15,738.74,No
+TEST0074,Male,1,No,No,68,No,Yes,No,Yes,No,No internet service,No,No internet service,Yes,One year,No,Mailed check,105.7,2965.9,Yes
+TEST0075,Female,0,Yes,Yes,34,Yes,No phone service,Fiber optic,No,No,No internet service,No internet service,No internet service,No,Month-to-month,No,Bank transfer,71.54,7916.37,No
+TEST0076,Male,1,No,Yes,42,Yes,No phone service,No,Yes,No,No,No internet service,Yes,Yes,One year,No,Bank transfer,61.24,2097.39,Yes
+TEST0077,Female,1,No,No,12,Yes,No,No,No,No,No,No,No internet service,No,One year,No,Credit card,41.27,4414.92,No
+TEST0078,Female,0,No,Yes,68,Yes,No phone service,DSL,No,No internet service,No,Yes,No,No internet service,One year,No,Bank transfer,40.65,3802.86,Yes
+TEST0079,Male,0,No,Yes,12,No,No,DSL,No internet service,No internet service,No,No,Yes,No internet service,One year,No,Bank transfer,51.72,3565.84,No
+TEST0080,Male,0,No,No,67,No,No phone service,Fiber optic,No,No,Yes,No,No internet service,Yes,Month-to-month,Yes,Mailed check,63.6,313.91,Yes
+TEST0081,Male,1,No,Yes,46,Yes,No phone service,No,No internet service,No,No,No internet service,Yes,No,Month-to-month,No,Bank transfer,100.29,1314.32,Yes
+TEST0082,Male,0,No,No,69,Yes,No,DSL,No internet service,No,Yes,No internet service,No internet service,Yes,Month-to-month,No,Electronic check,63.32,4542.54,Yes
+TEST0083,Male,1,Yes,Yes,16,Yes,No phone service,DSL,No,Yes,No,No,Yes,No,Two year,Yes,Mailed check,68.18,8299.99,No
+TEST0084,Female,0,Yes,No,16,No,No,Fiber optic,No internet service,No,Yes,No,Yes,No internet service,One year,Yes,Bank transfer,67.07,3025.74,Yes
+TEST0085,Male,0,Yes,No,22,Yes,No phone service,No,No,No,No,No,No,No,Month-to-month,No,Bank transfer,69.03,4550.61,Yes
+TEST0086,Male,0,No,Yes,18,No,No phone service,Fiber optic,No,No,Yes,Yes,No internet service,Yes,One year,No,Credit card,105.04,5132.86,No
+TEST0087,Female,0,No,No,41,No,No,DSL,No,Yes,No,No,No internet service,No internet service,One year,Yes,Electronic check,86.37,5086.67,Yes
+TEST0088,Male,0,No,Yes,32,No,No phone service,Fiber optic,No,No internet service,Yes,No,No,No internet service,One year,Yes,Mailed check,37.95,3200.58,No
+TEST0089,Male,0,No,No,28,No,No phone service,No,Yes,No internet service,No internet service,No,No internet service,Yes,Month-to-month,Yes,Bank transfer,92.18,7222.34,Yes
+TEST0090,Female,0,No,No,7,Yes,Yes,Fiber optic,No internet service,No internet service,No,No,No internet service,Yes,Two year,No,Electronic check,108.41,4011.77,No
+TEST0091,Female,0,Yes,No,36,No,Yes,DSL,No,Yes,No,No,No,No internet service,One year,Yes,Electronic check,116.35,2673.0,Yes
+TEST0092,Male,0,Yes,Yes,47,No,Yes,Fiber optic,Yes,Yes,Yes,Yes,No internet service,No,Two year,No,Electronic check,54.95,6050.13,Yes
+TEST0093,Female,0,No,Yes,24,No,Yes,DSL,No internet service,No internet service,No,Yes,No,No,Two year,Yes,Bank transfer,58.4,3944.62,Yes
+TEST0094,Male,1,No,Yes,21,No,No,Fiber optic,Yes,No,No,Yes,No,No,One year,No,Credit card,83.16,788.52,Yes
+TEST0095,Female,1,No,Yes,33,No,No,DSL,No,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Electronic check,39.23,5283.84,No
+TEST0096,Female,0,No,Yes,29,Yes,No phone service,Fiber optic,No internet service,No,Yes,Yes,No,Yes,One year,No,Electronic check,47.92,352.18,Yes
+TEST0097,Female,1,No,Yes,10,No,No phone service,DSL,No internet service,No,No internet service,No,No,No internet service,Two year,No,Mailed check,53.96,5881.3,No
+TEST0098,Male,0,No,Yes,3,No,No,Fiber optic,No,No internet service,No internet service,No,No,No internet service,Month-to-month,Yes,Electronic check,100.4,1810.71,Yes
+TEST0099,Female,1,No,No,57,Yes,No,DSL,No internet service,Yes,No internet service,No,Yes,No internet service,Month-to-month,Yes,Credit card,61.19,6078.73,Yes
+TEST0100,Female,0,No,No,31,Yes,No,Fiber optic,Yes,No,No,No internet service,No internet service,No internet service,Two year,Yes,Credit card,103.58,87.7,No
+TEST0101,Male,1,No,Yes,56,No,No phone service,Fiber optic,No internet service,Yes,No,Yes,No internet service,No internet service,One year,Yes,Electronic check,66.2,1666.98,Yes
+TEST0102,Male,0,No,No,3,No,No,DSL,Yes,No internet service,No internet service,Yes,No internet service,No internet service,Two year,No,Electronic check,58.99,6735.42,Yes
+TEST0103,Female,1,No,Yes,70,No,No phone service,No,No internet service,No,Yes,No internet service,Yes,Yes,One year,Yes,Bank transfer,105.99,5800.07,No
+TEST0104,Female,1,Yes,No,45,No,No phone service,No,Yes,Yes,Yes,Yes,Yes,No internet service,Month-to-month,No,Electronic check,89.92,8472.51,No
+TEST0105,Female,1,No,Yes,44,No,No phone service,No,No,Yes,Yes,No internet service,No internet service,No,Two year,Yes,Electronic check,90.12,6668.79,No
+TEST0106,Female,1,No,Yes,47,Yes,Yes,DSL,Yes,No internet service,Yes,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer,53.34,5483.07,No
+TEST0107,Male,1,No,No,1,No,No phone service,DSL,No internet service,Yes,No,No internet service,Yes,Yes,Month-to-month,Yes,Electronic check,51.28,951.22,No
+TEST0108,Male,1,Yes,Yes,55,Yes,No,DSL,Yes,No internet service,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,102.27,4653.65,No
+TEST0109,Female,0,No,Yes,2,No,No phone service,No,Yes,Yes,Yes,Yes,No,No,Month-to-month,No,Bank transfer,62.25,4312.04,No
+TEST0110,Female,0,No,Yes,10,Yes,No phone service,No,No,No,No internet service,No,Yes,No internet service,Month-to-month,No,Credit card,102.37,7179.82,No
+TEST0111,Male,1,Yes,No,56,Yes,Yes,DSL,No internet service,No internet service,No internet service,No,Yes,Yes,One year,No,Electronic check,116.89,37.15,Yes
+TEST0112,Female,1,No,No,68,No,No,DSL,No,No internet service,No,No,Yes,No,Month-to-month,Yes,Credit card,47.1,1944.51,Yes
+TEST0113,Male,1,Yes,Yes,47,Yes,No phone service,DSL,Yes,No internet service,No internet service,Yes,No,No,One year,No,Mailed check,80.3,586.17,No
+TEST0114,Female,1,No,No,15,No,Yes,Fiber optic,Yes,Yes,No internet service,No,No internet service,Yes,One year,No,Mailed check,59.52,6724.66,No
+TEST0115,Male,1,No,No,57,No,No phone service,No,No,Yes,Yes,No internet service,No internet service,No,Month-to-month,No,Bank transfer,75.98,1386.47,No
+TEST0116,Male,0,Yes,No,11,Yes,Yes,Fiber optic,No internet service,No internet service,No,Yes,Yes,Yes,Month-to-month,Yes,Credit card,20.02,4336.32,No
+TEST0117,Female,0,No,Yes,53,Yes,Yes,No,No,No,No,No,Yes,No internet service,One year,Yes,Credit card,110.22,5412.2,Yes
+TEST0118,Male,1,Yes,Yes,70,No,No phone service,DSL,No internet service,No internet service,No,Yes,No internet service,Yes,Two year,No,Electronic check,26.36,5798.32,Yes
+TEST0119,Male,0,No,No,58,No,Yes,Fiber optic,No,Yes,No,No internet service,No,No internet service,Month-to-month,No,Electronic check,70.49,1839.36,Yes
+TEST0120,Female,0,No,No,33,No,No phone service,Fiber optic,Yes,No internet service,No internet service,Yes,No internet service,Yes,Two year,Yes,Credit card,81.39,1739.93,Yes
+TEST0121,Female,0,No,No,42,No,No phone service,DSL,No internet service,No internet service,No internet service,Yes,Yes,No internet service,Two year,No,Credit card,96.48,4620.08,No
+TEST0122,Male,0,Yes,Yes,3,Yes,No,DSL,No,No,No internet service,No,Yes,No,Two year,No,Credit card,55.15,4668.65,Yes
+TEST0123,Female,1,No,Yes,59,Yes,No phone service,No,Yes,No internet service,No,No,No internet service,No,One year,No,Bank transfer,27.6,7708.8,No
+TEST0124,Female,0,Yes,Yes,70,Yes,Yes,Fiber optic,Yes,No internet service,Yes,No internet service,No internet service,Yes,Month-to-month,Yes,Credit card,119.25,2046.42,No
+TEST0125,Male,1,No,No,16,Yes,Yes,DSL,No internet service,Yes,Yes,Yes,No,No internet service,Month-to-month,No,Mailed check,104.68,7318.3,Yes
+TEST0126,Male,1,No,No,36,Yes,No phone service,DSL,No internet service,No,No,Yes,Yes,No,One year,Yes,Bank transfer,38.5,516.58,Yes
+TEST0127,Female,1,No,No,15,No,No,No,Yes,No,No,No,No internet service,No,Two year,Yes,Mailed check,60.04,4212.91,Yes
+TEST0128,Female,1,No,Yes,56,Yes,No,No,No,No,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,39.41,4025.18,Yes
+TEST0129,Female,1,Yes,No,33,No,No phone service,Fiber optic,Yes,No internet service,Yes,Yes,Yes,No internet service,Month-to-month,Yes,Credit card,107.87,8380.12,Yes
+TEST0130,Male,0,Yes,Yes,39,No,Yes,No,No,No,Yes,Yes,No internet service,No internet service,Two year,Yes,Electronic check,107.68,3903.8,Yes
+TEST0131,Female,1,No,No,48,No,No phone service,Fiber optic,Yes,Yes,No,No internet service,Yes,No,Month-to-month,No,Bank transfer,109.07,2801.3,No
+TEST0132,Male,1,No,No,42,No,No,Fiber optic,No,Yes,Yes,No,No internet service,No,Month-to-month,Yes,Credit card,117.19,2756.62,No
+TEST0133,Female,1,Yes,No,24,No,No,Fiber optic,Yes,Yes,No internet service,Yes,No,Yes,One year,No,Credit card,94.33,5407.16,Yes
+TEST0134,Male,1,No,Yes,33,No,No phone service,No,No,No internet service,No internet service,No,Yes,No,One year,Yes,Electronic check,46.86,3743.3,No
+TEST0135,Female,0,Yes,Yes,64,Yes,Yes,No,No internet service,Yes,No internet service,Yes,No,No,One year,No,Mailed check,58.99,366.46,Yes
+TEST0136,Male,1,No,Yes,64,Yes,No,DSL,No,Yes,Yes,No,No internet service,Yes,One year,No,Credit card,39.3,8467.57,No
+TEST0137,Female,1,No,Yes,54,Yes,Yes,Fiber optic,No,No,Yes,No,No,No internet service,One year,Yes,Bank transfer,28.14,1016.4,No
+TEST0138,Female,1,Yes,Yes,40,Yes,Yes,DSL,No internet service,Yes,No,No,No,Yes,Two year,Yes,Electronic check,111.26,1987.72,No
+TEST0139,Male,0,No,No,35,Yes,No,DSL,Yes,Yes,No internet service,Yes,No internet service,No internet service,Month-to-month,No,Credit card,50.25,7619.62,No
+TEST0140,Female,0,Yes,No,15,No,Yes,DSL,Yes,Yes,No,No internet service,No,No internet service,Month-to-month,No,Mailed check,84.58,7306.38,No
+TEST0141,Female,0,Yes,Yes,17,Yes,No,Fiber optic,No internet service,No internet service,No,No,Yes,No,Two year,No,Bank transfer,83.44,2065.79,No
+TEST0142,Female,0,No,Yes,52,Yes,Yes,Fiber optic,No,Yes,No internet service,No,Yes,No internet service,Two year,No,Electronic check,72.82,6687.14,Yes
+TEST0143,Male,1,Yes,Yes,57,Yes,Yes,No,No,No internet service,No,Yes,Yes,Yes,Month-to-month,No,Credit card,33.12,4750.46,Yes
+TEST0144,Female,0,Yes,No,19,Yes,No,No,No,No internet service,No internet service,Yes,Yes,Yes,One year,No,Credit card,62.92,4284.27,No
+TEST0145,Female,1,Yes,Yes,13,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Month-to-month,No,Electronic check,108.94,4282.57,Yes
+TEST0146,Female,1,No,Yes,3,Yes,Yes,DSL,No,No internet service,No internet service,No,No internet service,Yes,One year,No,Bank transfer,63.71,2747.53,No
+TEST0147,Male,0,Yes,No,52,No,Yes,No,No,No,No,No internet service,No,No internet service,One year,Yes,Mailed check,73.32,4906.36,Yes
+TEST0148,Female,1,Yes,No,30,Yes,No phone service,No,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer,46.7,4306.15,Yes
+TEST0149,Female,0,No,No,27,No,No,Fiber optic,No internet service,No internet service,No,Yes,No internet service,No internet service,Month-to-month,No,Credit card,87.26,4081.55,No
+TEST0150,Male,0,No,Yes,37,Yes,No,Fiber optic,Yes,No,Yes,No internet service,No,No internet service,One year,Yes,Electronic check,104.34,4431.2,No
+TEST0151,Female,1,No,No,21,Yes,Yes,Fiber optic,No,No,No,No internet service,Yes,No internet service,Two year,Yes,Bank transfer,31.9,1669.39,Yes
+TEST0152,Female,0,Yes,Yes,32,No,No,DSL,No,No internet service,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,90.13,6931.83,No
+TEST0153,Male,0,Yes,Yes,51,Yes,No phone service,DSL,No internet service,Yes,Yes,No,No internet service,No,Month-to-month,No,Electronic check,40.55,8526.36,No
+TEST0154,Male,0,No,Yes,62,No,No,Fiber optic,Yes,Yes,No internet service,No internet service,Yes,No internet service,One year,Yes,Credit card,41.68,8019.53,Yes
+TEST0155,Male,0,Yes,Yes,38,Yes,No,No,Yes,No,No,No internet service,No internet service,No internet service,Month-to-month,Yes,Bank transfer,94.99,1430.19,Yes
+TEST0156,Male,1,No,No,31,Yes,Yes,No,No internet service,No internet service,Yes,Yes,No,No internet service,One year,Yes,Electronic check,53.64,2313.42,No
+TEST0157,Female,1,No,Yes,40,No,No,Fiber optic,Yes,No,No,No internet service,Yes,Yes,Month-to-month,Yes,Credit card,110.69,8519.58,Yes
+TEST0158,Male,0,Yes,Yes,25,Yes,No,Fiber optic,No,Yes,Yes,Yes,No internet service,No internet service,Two year,Yes,Bank transfer,104.19,573.73,No
+TEST0159,Male,1,Yes,Yes,43,Yes,Yes,Fiber optic,No internet service,No,Yes,Yes,No internet service,No,One year,Yes,Electronic check,90.63,8204.41,No
+TEST0160,Male,1,No,Yes,39,Yes,Yes,No,No internet service,No,No internet service,Yes,No,No internet service,Month-to-month,No,Electronic check,108.61,4906.34,Yes
+TEST0161,Female,1,Yes,Yes,59,Yes,No phone service,DSL,No,No,Yes,No,No,No internet service,Two year,Yes,Electronic check,104.96,4463.82,No
+TEST0162,Male,1,No,Yes,34,No,No phone service,Fiber optic,No,No internet service,Yes,Yes,No,No,Two year,Yes,Mailed check,21.45,6318.14,Yes
+TEST0163,Male,1,Yes,Yes,72,No,Yes,Fiber optic,No,No,No,No internet service,No,No,Two year,No,Mailed check,30.45,1760.87,No
+TEST0164,Male,0,No,Yes,16,No,Yes,DSL,No,Yes,Yes,Yes,No,No,Two year,Yes,Credit card,27.88,6394.76,Yes
+TEST0165,Male,1,No,Yes,18,Yes,No,Fiber optic,No,Yes,Yes,No internet service,No,No,Month-to-month,Yes,Mailed check,32.79,7549.39,No
+TEST0166,Female,0,Yes,No,4,No,No phone service,Fiber optic,No internet service,No internet service,No,No,No,Yes,Two year,No,Mailed check,71.25,6898.27,Yes
+TEST0167,Female,1,Yes,Yes,66,Yes,No phone service,No,Yes,Yes,No,Yes,No internet service,No internet service,Month-to-month,Yes,Bank transfer,62.73,3837.38,Yes
+TEST0168,Male,0,No,No,42,No,No,DSL,No internet service,No,No,Yes,No internet service,Yes,Two year,Yes,Bank transfer,114.5,1420.05,No
+TEST0169,Male,1,Yes,Yes,2,No,No phone service,DSL,No,Yes,No,No,No,No internet service,Two year,No,Bank transfer,71.27,7996.32,No
+TEST0170,Male,0,No,No,26,Yes,No,Fiber optic,No,No internet service,No internet service,No internet service,No,No internet service,One year,Yes,Bank transfer,80.06,1662.78,No
+TEST0171,Female,1,No,Yes,39,Yes,No,Fiber optic,Yes,No,No internet service,No,Yes,No,Month-to-month,Yes,Credit card,85.62,1081.59,No
+TEST0172,Female,0,Yes,Yes,46,No,No,DSL,Yes,Yes,No internet service,No internet service,Yes,Yes,Two year,No,Credit card,106.09,985.95,No
+TEST0173,Male,0,Yes,No,35,Yes,No phone service,Fiber optic,No internet service,No,Yes,Yes,No,Yes,Month-to-month,No,Mailed check,106.16,6457.0,Yes
+TEST0174,Male,0,No,No,13,Yes,No,No,No internet service,Yes,Yes,No internet service,No,Yes,Two year,Yes,Bank transfer,117.23,4466.55,No
+TEST0175,Male,1,No,No,40,Yes,No phone service,Fiber optic,Yes,Yes,Yes,Yes,No internet service,No internet service,Month-to-month,No,Mailed check,58.6,6046.77,No
+TEST0176,Female,0,Yes,Yes,58,Yes,No,DSL,No,No internet service,Yes,No internet service,No internet service,No internet service,Two year,No,Mailed check,22.19,3164.27,No
+TEST0177,Male,0,No,No,8,No,No phone service,Fiber optic,Yes,Yes,No,No internet service,No internet service,Yes,One year,Yes,Credit card,97.98,84.05,Yes
+TEST0178,Female,0,No,Yes,42,No,No,Fiber optic,Yes,No internet service,No,No,Yes,No internet service,One year,No,Credit card,113.63,8017.43,No
+TEST0179,Female,1,No,Yes,56,No,No,No,No,No,No internet service,No internet service,No,Yes,Two year,Yes,Mailed check,60.74,8413.36,No
+TEST0180,Female,0,Yes,No,34,No,No,Fiber optic,No internet service,Yes,No,No,Yes,No,Two year,No,Credit card,47.43,2376.74,No
+TEST0181,Male,1,Yes,Yes,4,No,No phone service,No,Yes,No,Yes,No,No,No internet service,Two year,Yes,Credit card,30.06,8398.82,No
+TEST0182,Male,0,Yes,Yes,30,Yes,No phone service,DSL,Yes,No internet service,Yes,No,No,No,Two year,No,Electronic check,78.18,2652.64,Yes
+TEST0183,Male,1,No,Yes,56,No,Yes,DSL,Yes,No,No internet service,No,No,Yes,Two year,No,Credit card,109.79,3746.52,Yes
+TEST0184,Female,1,Yes,No,7,Yes,No phone service,No,No internet service,No internet service,No internet service,No,Yes,No internet service,One year,Yes,Mailed check,96.9,1233.96,No
+TEST0185,Male,0,Yes,No,62,Yes,No phone service,DSL,Yes,Yes,No,No internet service,No,No internet service,One year,Yes,Bank transfer,62.06,4676.58,Yes
+TEST0186,Male,1,Yes,Yes,14,Yes,Yes,DSL,Yes,No,Yes,No internet service,No internet service,No,Two year,Yes,Mailed check,119.19,7932.42,No
+TEST0187,Male,1,No,Yes,22,Yes,No,Fiber optic,No internet service,No,No internet service,No internet service,No internet service,No,Two year,No,Mailed check,49.78,384.76,Yes
+TEST0188,Female,1,No,No,14,Yes,Yes,DSL,No internet service,No,No internet service,Yes,Yes,No internet service,One year,Yes,Mailed check,40.62,8415.98,No
+TEST0189,Male,0,Yes,No,33,Yes,Yes,DSL,No internet service,Yes,Yes,No,No,Yes,Two year,Yes,Credit card,42.85,1987.15,No
+TEST0190,Male,1,Yes,Yes,40,No,No phone service,No,Yes,Yes,No,No internet service,Yes,Yes,One year,No,Credit card,85.95,7553.96,No
+TEST0191,Female,1,Yes,Yes,61,Yes,No,No,No internet service,No internet service,No,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,61.63,8355.66,Yes
+TEST0192,Male,1,Yes,Yes,58,Yes,Yes,No,No internet service,No internet service,No,Yes,No internet service,No,Month-to-month,Yes,Bank transfer,36.91,5229.35,Yes
+TEST0193,Female,0,No,Yes,11,No,No,No,No internet service,Yes,Yes,Yes,Yes,No,Month-to-month,No,Bank transfer,82.5,2170.69,No
+TEST0194,Male,1,Yes,No,70,No,No,No,No,Yes,No internet service,Yes,Yes,No,One year,Yes,Credit card,93.86,1634.46,No
+TEST0195,Female,0,Yes,No,51,No,No,No,No,No,Yes,No,No,No internet service,One year,Yes,Bank transfer,35.89,3624.16,No
+TEST0196,Male,0,Yes,Yes,59,Yes,No,Fiber optic,No internet service,No internet service,No internet service,No,No,No,One year,No,Bank transfer,21.89,1310.17,Yes
+TEST0197,Male,0,Yes,Yes,45,Yes,No phone service,No,No internet service,No internet service,Yes,No,No,No,One year,No,Mailed check,66.65,2686.52,No
+TEST0198,Male,0,Yes,Yes,3,No,Yes,DSL,No internet service,No,No internet service,No,No,No internet service,One year,No,Bank transfer,81.34,4600.48,Yes
+TEST0199,Male,0,No,No,25,Yes,No phone service,No,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Mailed check,50.05,2961.15,No
+TEST0200,Female,0,Yes,Yes,37,No,No,No,Yes,No internet service,No internet service,Yes,No internet service,No internet service,Two year,Yes,Mailed check,26.41,6722.72,Yes
+TEST0201,Female,1,No,Yes,72,No,Yes,No,No,No internet service,Yes,No,No,No internet service,Two year,No,Credit card,87.73,5820.83,Yes
+TEST0202,Male,0,Yes,Yes,29,No,Yes,Fiber optic,No,Yes,No internet service,No internet service,No,No,One year,No,Bank transfer,63.58,348.01,Yes
+TEST0203,Female,1,Yes,Yes,39,No,Yes,No,No internet service,No,No,Yes,Yes,No internet service,One year,Yes,Credit card,59.19,5442.21,Yes
+TEST0204,Male,0,Yes,No,49,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,Yes,Mailed check,66.51,7615.34,Yes
+TEST0205,Female,0,Yes,Yes,2,Yes,No phone service,Fiber optic,No,Yes,No,Yes,No internet service,No,Month-to-month,No,Bank transfer,68.93,7447.15,No
+TEST0206,Female,1,Yes,No,69,Yes,No phone service,Fiber optic,No,No internet service,No internet service,Yes,Yes,No internet service,One year,No,Mailed check,49.69,8458.77,No
+TEST0207,Male,0,Yes,No,66,Yes,No phone service,No,No internet service,Yes,No,No,No,No internet service,Two year,No,Bank transfer,55.81,6553.64,Yes
+TEST0208,Female,0,Yes,No,51,No,Yes,No,No internet service,Yes,No internet service,Yes,No,No internet service,Month-to-month,No,Electronic check,22.78,3437.31,No
+TEST0209,Male,1,Yes,No,7,No,No phone service,No,No,No internet service,Yes,No,Yes,No,Month-to-month,No,Mailed check,60.26,7929.67,No
+TEST0210,Female,0,No,Yes,20,Yes,No,No,No,Yes,No internet service,No internet service,No internet service,No internet service,One year,Yes,Electronic check,59.95,5824.08,Yes
+TEST0211,Female,0,Yes,Yes,55,Yes,No phone service,Fiber optic,Yes,Yes,No internet service,No,No internet service,Yes,Month-to-month,Yes,Credit card,62.2,4914.73,No
+TEST0212,Male,1,No,Yes,58,No,No,Fiber optic,No internet service,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card,34.07,2048.87,Yes
+TEST0213,Male,1,No,No,53,Yes,No,No,No internet service,No,No,No internet service,Yes,No,Two year,No,Bank transfer,82.63,7928.88,No
+TEST0214,Female,0,Yes,Yes,32,Yes,No,DSL,Yes,No,No,No internet service,No internet service,No internet service,Two year,Yes,Electronic check,113.92,1845.62,Yes
+TEST0215,Male,0,Yes,Yes,60,Yes,Yes,DSL,No,Yes,No,Yes,No,Yes,One year,No,Credit card,70.28,2642.84,Yes
+TEST0216,Female,0,No,No,13,No,No phone service,Fiber optic,Yes,No internet service,No internet service,No internet service,Yes,No,Two year,Yes,Electronic check,81.7,7977.97,No
+TEST0217,Male,0,Yes,Yes,7,No,No phone service,Fiber optic,No internet service,Yes,No internet service,Yes,No internet service,No internet service,Two year,Yes,Bank transfer,91.24,7913.78,Yes
+TEST0218,Male,1,Yes,No,43,No,No,DSL,No internet service,No internet service,No,No,No internet service,No,Two year,No,Bank transfer,71.64,2968.35,No
+TEST0219,Male,0,Yes,Yes,14,Yes,No phone service,No,No internet service,No,Yes,Yes,No,No,Two year,Yes,Credit card,74.63,3191.61,No
+TEST0220,Female,0,No,Yes,51,No,Yes,DSL,Yes,No,No,Yes,No,Yes,One year,No,Credit card,107.53,1928.78,Yes
+TEST0221,Female,1,Yes,No,71,No,No phone service,No,Yes,No internet service,Yes,No internet service,Yes,No,Month-to-month,No,Electronic check,98.57,5138.15,Yes
+TEST0222,Female,1,No,Yes,14,No,No phone service,Fiber optic,No internet service,Yes,No,No,Yes,No internet service,One year,Yes,Credit card,60.32,6561.4,No
+TEST0223,Male,0,No,No,18,Yes,Yes,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No,Two year,Yes,Credit card,103.72,3183.15,Yes
+TEST0224,Female,1,No,Yes,29,No,No phone service,No,Yes,No internet service,No internet service,Yes,Yes,No,Two year,Yes,Credit card,72.94,7077.22,Yes
+TEST0225,Female,1,Yes,No,59,Yes,Yes,DSL,No internet service,No internet service,No internet service,No internet service,No internet service,Yes,Two year,No,Electronic check,45.32,7750.41,Yes
+TEST0226,Male,1,No,Yes,22,Yes,No phone service,DSL,Yes,No internet service,No internet service,No internet service,Yes,Yes,One year,Yes,Bank transfer,65.43,8073.62,Yes
+TEST0227,Female,0,Yes,Yes,68,No,No phone service,DSL,No,Yes,Yes,No,Yes,No internet service,Month-to-month,No,Credit card,118.67,2803.62,No
+TEST0228,Male,1,No,No,34,No,No,No,No internet service,No internet service,Yes,No internet service,No,Yes,One year,Yes,Mailed check,39.73,5922.39,No
+TEST0229,Male,0,Yes,No,51,Yes,No phone service,No,Yes,Yes,No internet service,Yes,No internet service,No internet service,One year,Yes,Credit card,32.2,2673.28,Yes
+TEST0230,Male,1,Yes,No,66,No,Yes,No,No,Yes,No internet service,Yes,No,No internet service,Month-to-month,Yes,Bank transfer,48.2,2423.05,No
+TEST0231,Female,0,No,No,43,No,Yes,No,Yes,No internet service,No,Yes,No internet service,Yes,Month-to-month,Yes,Bank transfer,68.52,4222.21,No
+TEST0232,Male,1,No,No,16,No,Yes,DSL,Yes,No internet service,No,Yes,No internet service,Yes,Two year,Yes,Electronic check,65.17,2060.97,Yes
+TEST0233,Female,0,No,Yes,54,No,Yes,DSL,No internet service,Yes,No internet service,Yes,No,Yes,One year,No,Electronic check,80.38,4328.98,No
+TEST0234,Female,1,Yes,No,69,Yes,No,DSL,No internet service,No,No,No,No,Yes,Month-to-month,Yes,Credit card,46.49,8200.96,Yes
+TEST0235,Male,1,Yes,No,26,Yes,No phone service,No,Yes,Yes,No internet service,Yes,Yes,No internet service,Two year,Yes,Mailed check,94.12,865.59,Yes
+TEST0236,Female,1,No,Yes,17,Yes,Yes,Fiber optic,No internet service,No,No internet service,No,No,No,One year,Yes,Mailed check,21.37,1036.96,Yes
+TEST0237,Female,0,No,No,4,Yes,No phone service,Fiber optic,No internet service,No internet service,No internet service,Yes,No,No internet service,Two year,No,Electronic check,32.39,6035.27,Yes
+TEST0238,Male,0,Yes,Yes,28,No,Yes,Fiber optic,Yes,No internet service,No internet service,No internet service,No,Yes,Month-to-month,Yes,Mailed check,100.02,6642.47,Yes
+TEST0239,Male,0,Yes,No,38,Yes,No phone service,DSL,No,No internet service,Yes,Yes,No internet service,No internet service,One year,Yes,Electronic check,93.06,4415.93,No
+TEST0240,Male,1,Yes,No,41,No,No,DSL,No internet service,Yes,Yes,No,No,Yes,Month-to-month,No,Mailed check,56.94,1200.83,Yes
+TEST0241,Male,0,No,Yes,57,No,No,No,No internet service,No,Yes,No internet service,Yes,No internet service,Month-to-month,No,Mailed check,25.65,6442.0,No
+TEST0242,Male,1,No,Yes,44,Yes,No,Fiber optic,Yes,No internet service,Yes,Yes,No internet service,Yes,Two year,Yes,Credit card,40.71,4707.09,Yes
+TEST0243,Female,0,No,Yes,6,No,No,DSL,Yes,No,No,No,No internet service,No internet service,Two year,Yes,Electronic check,29.9,4853.68,Yes
+TEST0244,Female,0,Yes,Yes,16,Yes,No,No,No,No,Yes,No internet service,Yes,No internet service,Month-to-month,Yes,Credit card,91.68,2274.01,No
+TEST0245,Female,1,No,Yes,51,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Bank transfer,25.44,1184.05,Yes
+TEST0246,Female,1,No,No,34,No,No phone service,DSL,Yes,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,77.71,6270.6,Yes
+TEST0247,Male,1,No,Yes,51,No,Yes,DSL,Yes,Yes,Yes,No internet service,No,No,Month-to-month,No,Bank transfer,21.97,6737.27,No
+TEST0248,Female,0,No,Yes,56,Yes,Yes,DSL,No internet service,Yes,Yes,No,Yes,No internet service,One year,No,Electronic check,24.8,1908.85,No
+TEST0249,Male,1,No,Yes,61,Yes,No phone service,DSL,Yes,No internet service,No internet service,Yes,Yes,No,One year,No,Electronic check,45.89,5578.29,Yes
+TEST0250,Male,0,Yes,No,6,Yes,No phone service,Fiber optic,Yes,No,No internet service,Yes,Yes,No internet service,Two year,No,Electronic check,20.35,7168.24,No
+TEST0251,Female,1,No,Yes,72,No,No,Fiber optic,No,No,No internet service,Yes,No,No internet service,One year,No,Bank transfer,28.07,1866.49,Yes
+TEST0252,Male,0,Yes,No,9,No,No phone service,DSL,Yes,No,Yes,No internet service,Yes,No internet service,Month-to-month,Yes,Credit card,94.98,3438.97,Yes
+TEST0253,Female,1,Yes,Yes,72,No,No phone service,Fiber optic,Yes,No internet service,No internet service,Yes,No,No internet service,One year,No,Electronic check,53.91,3621.55,No
+TEST0254,Male,0,Yes,No,34,Yes,No,No,No internet service,Yes,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Mailed check,70.51,340.81,No
+TEST0255,Male,0,Yes,Yes,35,Yes,Yes,DSL,No internet service,No,No internet service,No,No internet service,No,Two year,No,Credit card,78.27,6548.61,Yes
+TEST0256,Male,0,Yes,Yes,39,Yes,Yes,DSL,No internet service,Yes,No,Yes,No internet service,No internet service,Two year,Yes,Credit card,21.81,6369.91,No
+TEST0257,Male,0,Yes,Yes,58,No,No phone service,DSL,Yes,No,Yes,No internet service,No internet service,No,Two year,No,Credit card,69.99,5552.9,Yes
+TEST0258,Male,1,No,No,62,Yes,No phone service,No,Yes,No internet service,Yes,Yes,Yes,No internet service,One year,No,Electronic check,34.88,5170.8,No
+TEST0259,Male,1,No,No,69,Yes,No phone service,DSL,Yes,Yes,Yes,Yes,No,No internet service,One year,No,Credit card,61.24,2926.98,No
+TEST0260,Male,0,No,No,2,No,No phone service,DSL,Yes,Yes,No,No internet service,No internet service,Yes,Month-to-month,No,Mailed check,20.63,1666.86,Yes
+TEST0261,Female,0,No,Yes,66,No,No phone service,DSL,No,Yes,Yes,Yes,No,No internet service,Month-to-month,Yes,Mailed check,66.49,383.49,No
+TEST0262,Male,1,No,Yes,10,No,Yes,DSL,No,No internet service,No,Yes,No internet service,Yes,One year,Yes,Credit card,85.32,5786.21,No
+TEST0263,Male,0,Yes,Yes,53,Yes,No phone service,DSL,No,No,Yes,Yes,No internet service,No internet service,Month-to-month,No,Credit card,82.71,2338.13,Yes
+TEST0264,Male,1,Yes,No,12,No,Yes,No,No internet service,Yes,No,No,Yes,Yes,Month-to-month,No,Bank transfer,68.1,8579.95,No
+TEST0265,Male,1,No,Yes,38,Yes,Yes,No,No,Yes,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card,118.54,3282.48,Yes
+TEST0266,Male,0,No,No,27,Yes,Yes,DSL,No internet service,No internet service,No internet service,No internet service,Yes,No,Two year,No,Mailed check,38.46,6032.21,No
+TEST0267,Female,0,Yes,No,27,No,No,No,No,No internet service,No,Yes,Yes,No internet service,One year,Yes,Credit card,106.14,6486.41,No
+TEST0268,Male,1,Yes,Yes,16,Yes,No,DSL,Yes,Yes,No,No internet service,No internet service,No,Month-to-month,No,Electronic check,83.04,6366.88,No
+TEST0269,Female,1,Yes,No,19,Yes,No phone service,Fiber optic,No,Yes,No,Yes,Yes,No,Two year,Yes,Credit card,80.48,3362.53,Yes
+TEST0270,Female,0,Yes,No,38,Yes,No,DSL,No internet service,No internet service,No internet service,No internet service,No internet service,No,Two year,No,Mailed check,21.47,4028.44,No
+TEST0271,Female,0,Yes,No,4,No,No,Fiber optic,No internet service,No,Yes,No internet service,No internet service,No internet service,Two year,No,Credit card,116.58,860.96,No
+TEST0272,Female,0,Yes,Yes,18,Yes,No,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No,Two year,No,Credit card,38.89,6661.17,Yes
+TEST0273,Female,0,No,Yes,52,Yes,Yes,No,No internet service,Yes,No internet service,Yes,Yes,No,One year,No,Credit card,111.37,1767.45,Yes
+TEST0274,Female,0,Yes,Yes,15,No,Yes,DSL,Yes,Yes,No internet service,No,Yes,Yes,Month-to-month,No,Mailed check,83.63,4825.56,Yes
+TEST0275,Male,0,Yes,Yes,20,No,No phone service,DSL,No,Yes,No,No,Yes,No,Two year,Yes,Bank transfer,45.17,173.32,Yes
+TEST0276,Male,0,No,No,70,Yes,No phone service,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,No,Mailed check,64.0,1870.62,No
+TEST0277,Male,0,Yes,Yes,58,Yes,Yes,No,Yes,Yes,Yes,No internet service,Yes,Yes,Two year,Yes,Mailed check,37.69,5313.8,Yes
+TEST0278,Male,1,No,No,18,No,No phone service,Fiber optic,Yes,No,Yes,No,No internet service,No internet service,One year,No,Electronic check,41.93,4222.42,Yes
+TEST0279,Male,0,Yes,Yes,64,No,No phone service,DSL,Yes,No internet service,No,No internet service,Yes,No,Month-to-month,No,Bank transfer,76.9,6509.93,No
+TEST0280,Female,1,No,No,39,Yes,No phone service,Fiber optic,Yes,Yes,Yes,Yes,No,No internet service,Month-to-month,Yes,Credit card,71.69,1223.36,Yes
+TEST0281,Female,1,No,Yes,54,Yes,No,No,No,Yes,No internet service,No,No,No,Two year,No,Electronic check,58.8,421.32,No
+TEST0282,Male,1,No,No,53,Yes,No,No,Yes,Yes,No,Yes,No,No,Two year,Yes,Bank transfer,61.16,5862.31,Yes
+TEST0283,Male,0,Yes,Yes,52,Yes,Yes,No,No,Yes,No internet service,No,Yes,No internet service,Month-to-month,No,Electronic check,74.52,3528.09,Yes
+TEST0284,Male,1,Yes,Yes,26,Yes,Yes,Fiber optic,No internet service,No,No internet service,No internet service,No,Yes,One year,Yes,Bank transfer,73.22,5260.41,No
+TEST0285,Female,0,No,Yes,14,No,No,Fiber optic,No internet service,No internet service,No internet service,No internet service,No internet service,No,Two year,Yes,Credit card,51.12,2409.91,Yes
+TEST0286,Female,0,Yes,No,29,No,No,Fiber optic,Yes,No internet service,No internet service,No,No,No,One year,No,Mailed check,84.58,4071.06,Yes
+TEST0287,Male,1,No,No,3,No,Yes,No,Yes,Yes,No,No internet service,No,No internet service,Two year,Yes,Credit card,69.43,8357.99,Yes
+TEST0288,Female,0,No,Yes,16,Yes,No phone service,No,No internet service,Yes,No,Yes,No internet service,Yes,One year,Yes,Credit card,55.16,7436.26,No
+TEST0289,Male,0,Yes,No,69,No,Yes,No,No internet service,No,No,Yes,Yes,No,Two year,No,Mailed check,62.96,3348.12,No
+TEST0290,Female,1,No,Yes,18,No,No phone service,Fiber optic,No internet service,No,No,No,Yes,No internet service,Two year,Yes,Bank transfer,74.12,461.61,No
+TEST0291,Male,0,Yes,No,61,Yes,No,DSL,No,No internet service,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Bank transfer,71.14,5697.83,Yes
+TEST0292,Female,1,Yes,No,64,No,No phone service,No,Yes,Yes,Yes,No,No internet service,Yes,One year,Yes,Mailed check,88.02,5066.43,Yes
+TEST0293,Female,1,No,No,55,Yes,Yes,No,No internet service,No internet service,No,No internet service,No,Yes,Month-to-month,No,Electronic check,27.31,8323.97,Yes
+TEST0294,Female,1,No,Yes,38,Yes,Yes,Fiber optic,Yes,No,No internet service,No internet service,Yes,Yes,One year,No,Electronic check,37.66,6952.93,No
+TEST0295,Male,0,No,Yes,4,Yes,No,Fiber optic,Yes,No internet service,No,No,No internet service,Yes,One year,No,Mailed check,65.61,51.34,No
+TEST0296,Female,0,No,Yes,4,No,No,No,No,No internet service,Yes,No internet service,Yes,No,One year,No,Mailed check,59.29,4301.38,No
+TEST0297,Male,0,No,No,38,No,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No,One year,No,Credit card,58.99,4001.52,No
+TEST0298,Male,0,No,Yes,48,No,No phone service,No,No internet service,No,No,No internet service,No,No internet service,Month-to-month,Yes,Electronic check,61.05,3392.69,Yes
+TEST0299,Female,1,No,No,28,No,No,No,No,No internet service,No internet service,Yes,No,No,Month-to-month,No,Credit card,26.56,246.05,No
+TEST0300,Female,1,No,Yes,2,Yes,No,No,No internet service,No,Yes,Yes,No,No internet service,Two year,No,Bank transfer,47.93,7817.92,Yes
+TEST0301,Female,0,No,Yes,28,Yes,No,DSL,No,No internet service,Yes,Yes,Yes,Yes,One year,Yes,Mailed check,23.07,128.43,Yes
+TEST0302,Male,1,No,Yes,5,Yes,No phone service,Fiber optic,No,No,Yes,No internet service,Yes,No internet service,Month-to-month,No,Credit card,47.04,5589.09,Yes
+TEST0303,Female,0,Yes,Yes,58,Yes,No,Fiber optic,Yes,No,No,Yes,No,Yes,Month-to-month,Yes,Mailed check,119.66,5936.76,No
+TEST0304,Female,0,No,Yes,68,Yes,No,No,Yes,Yes,No internet service,No internet service,Yes,No,Month-to-month,No,Electronic check,56.44,3498.29,Yes
+TEST0305,Male,0,Yes,No,50,Yes,No,DSL,No internet service,No internet service,No,No,No,No,One year,Yes,Bank transfer,80.7,4747.57,Yes
+TEST0306,Male,0,Yes,Yes,24,No,No phone service,DSL,Yes,No,No,No internet service,Yes,No internet service,Two year,No,Mailed check,30.57,4280.77,Yes
+TEST0307,Male,1,Yes,No,34,Yes,No,No,No internet service,No,No,No,No,No internet service,One year,No,Electronic check,102.02,1417.21,No
+TEST0308,Male,0,Yes,No,21,Yes,No,Fiber optic,No,No,No internet service,No internet service,No internet service,Yes,Two year,Yes,Electronic check,100.08,1898.07,No
+TEST0309,Male,1,Yes,Yes,66,No,Yes,Fiber optic,No,No internet service,Yes,No,No,Yes,Month-to-month,No,Mailed check,50.91,4305.69,Yes
+TEST0310,Male,1,No,No,62,Yes,No phone service,DSL,No,Yes,Yes,Yes,No,Yes,Month-to-month,Yes,Mailed check,70.5,5869.9,No
+TEST0311,Female,0,Yes,No,22,Yes,No phone service,No,Yes,No,No internet service,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,68.52,4681.16,Yes
+TEST0312,Male,1,Yes,Yes,14,No,No phone service,DSL,No internet service,Yes,No,No internet service,No internet service,No internet service,Two year,Yes,Electronic check,57.73,3213.73,No
+TEST0313,Male,0,Yes,No,44,No,No,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,No,Bank transfer,47.29,8342.9,No
+TEST0314,Female,1,Yes,No,32,Yes,Yes,Fiber optic,No,No internet service,No internet service,No internet service,No,No,Month-to-month,Yes,Electronic check,91.16,3963.89,No
+TEST0315,Female,0,Yes,No,16,Yes,No,DSL,No,Yes,No,Yes,Yes,No,One year,Yes,Bank transfer,92.58,1890.02,No
+TEST0316,Male,1,Yes,No,66,Yes,No phone service,No,No,No internet service,No internet service,Yes,Yes,Yes,One year,Yes,Electronic check,48.15,6813.92,No
+TEST0317,Female,0,Yes,No,62,No,No,No,No,No,Yes,No,No,Yes,Two year,Yes,Bank transfer,58.78,1148.66,No
+TEST0318,Male,0,No,Yes,34,No,No phone service,No,No internet service,No internet service,Yes,Yes,Yes,No,One year,Yes,Credit card,92.04,513.43,Yes
+TEST0319,Male,0,Yes,No,26,No,No,No,No internet service,No internet service,No internet service,Yes,No internet service,Yes,One year,No,Bank transfer,63.43,6970.13,Yes
+TEST0320,Male,0,Yes,Yes,46,No,Yes,DSL,No internet service,No internet service,Yes,Yes,No,No,Two year,No,Credit card,90.03,1258.89,Yes
+TEST0321,Female,0,Yes,No,24,Yes,Yes,No,Yes,No,Yes,No,Yes,No internet service,Two year,Yes,Mailed check,70.93,4333.58,Yes
+TEST0322,Male,0,Yes,Yes,34,Yes,No phone service,DSL,No,No internet service,No,No,Yes,No,Month-to-month,No,Credit card,92.73,3246.94,Yes
+TEST0323,Female,1,No,No,6,Yes,Yes,DSL,No,No internet service,No,Yes,Yes,Yes,Month-to-month,No,Mailed check,80.4,3842.63,No
+TEST0324,Male,0,Yes,Yes,17,No,Yes,Fiber optic,Yes,No,No,No,Yes,No,Two year,No,Credit card,32.57,1449.01,No
+TEST0325,Female,1,Yes,No,44,No,No phone service,DSL,Yes,No,No internet service,No internet service,No internet service,No,Two year,Yes,Bank transfer,82.99,7812.77,No
+TEST0326,Male,1,Yes,Yes,47,No,No phone service,DSL,Yes,Yes,No,Yes,Yes,No,Two year,Yes,Bank transfer,80.84,404.91,Yes
+TEST0327,Male,0,No,No,11,No,No phone service,Fiber optic,Yes,Yes,Yes,No,Yes,No,Two year,Yes,Credit card,48.83,1199.12,No
+TEST0328,Female,0,No,Yes,14,Yes,Yes,Fiber optic,No internet service,No,No,Yes,No internet service,Yes,Month-to-month,Yes,Credit card,22.24,5272.62,No
+TEST0329,Male,1,Yes,Yes,31,No,No phone service,DSL,No internet service,No internet service,No,Yes,No,Yes,One year,Yes,Bank transfer,50.63,6385.21,Yes
+TEST0330,Female,0,Yes,No,53,Yes,Yes,No,No,No internet service,No,No internet service,No internet service,Yes,Month-to-month,Yes,Bank transfer,53.06,2378.4,Yes
+TEST0331,Male,1,No,No,27,Yes,No phone service,DSL,Yes,Yes,Yes,No,No internet service,No internet service,Two year,Yes,Electronic check,73.33,8007.84,Yes
+TEST0332,Male,0,No,No,5,Yes,No phone service,No,No internet service,No,No internet service,No,No internet service,Yes,Two year,No,Electronic check,33.05,352.8,Yes
+TEST0333,Female,0,No,No,33,Yes,No phone service,No,Yes,No,No internet service,No,No internet service,No internet service,One year,Yes,Credit card,67.16,6975.87,Yes
+TEST0334,Female,0,No,Yes,27,Yes,No phone service,No,Yes,Yes,No,Yes,No,No internet service,Two year,No,Bank transfer,53.24,4325.87,Yes
+TEST0335,Male,0,No,Yes,18,Yes,No,Fiber optic,No internet service,Yes,Yes,No internet service,No,No,Two year,Yes,Bank transfer,38.84,5536.17,Yes
+TEST0336,Male,0,Yes,No,62,Yes,Yes,DSL,Yes,No,Yes,No internet service,Yes,No internet service,Month-to-month,Yes,Electronic check,104.61,6009.97,Yes
+TEST0337,Female,0,No,Yes,61,Yes,No phone service,Fiber optic,Yes,No,No internet service,No internet service,No internet service,No internet service,One year,No,Credit card,78.02,232.7,No
+TEST0338,Male,0,No,Yes,47,No,No,Fiber optic,Yes,Yes,No,Yes,No,No,Month-to-month,No,Electronic check,43.83,1965.01,No
+TEST0339,Male,0,No,No,47,No,No,No,No internet service,Yes,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,70.59,1909.65,Yes
+TEST0340,Male,0,Yes,Yes,29,Yes,No,DSL,No,No internet service,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,65.65,537.08,Yes
+TEST0341,Male,1,No,No,59,No,No phone service,Fiber optic,No internet service,No internet service,Yes,No internet service,No,No,Two year,No,Bank transfer,30.97,8459.31,Yes
+TEST0342,Female,1,No,Yes,6,Yes,No phone service,Fiber optic,No,No internet service,No,No,No,Yes,Month-to-month,No,Bank transfer,49.81,7863.84,Yes
+TEST0343,Female,1,No,Yes,7,No,Yes,DSL,No,Yes,Yes,No,No,No,Two year,No,Electronic check,73.55,2593.34,No
+TEST0344,Male,0,Yes,No,65,No,No,No,No,No,Yes,Yes,Yes,No,Two year,Yes,Electronic check,42.35,3732.39,No
+TEST0345,Female,0,No,Yes,62,No,Yes,DSL,No,Yes,No,No internet service,Yes,Yes,One year,No,Mailed check,25.16,2525.89,No
+TEST0346,Male,0,No,Yes,18,No,Yes,Fiber optic,Yes,Yes,No,Yes,Yes,Yes,One year,No,Credit card,38.4,8190.71,No
+TEST0347,Male,0,Yes,Yes,24,Yes,No,No,No,No internet service,Yes,No,No internet service,No,Month-to-month,No,Bank transfer,99.88,2671.28,Yes
+TEST0348,Female,1,No,No,15,Yes,No phone service,Fiber optic,No internet service,No,No,No,No,No internet service,Two year,No,Bank transfer,38.04,365.08,No
+TEST0349,Male,1,Yes,No,30,No,Yes,No,Yes,No internet service,No,No internet service,No,Yes,Two year,Yes,Electronic check,69.62,3978.48,No
+TEST0350,Female,0,Yes,No,14,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No,No internet service,Two year,Yes,Bank transfer,40.83,4933.07,Yes
+TEST0351,Female,0,No,No,18,No,No phone service,No,No internet service,No internet service,No,Yes,Yes,No,Two year,Yes,Credit card,61.56,1488.46,No
+TEST0352,Female,1,No,No,35,Yes,No,DSL,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,37.63,1984.13,No
+TEST0353,Female,0,Yes,No,4,No,No,DSL,Yes,Yes,No internet service,Yes,No internet service,Yes,Month-to-month,No,Credit card,61.27,3341.09,Yes
+TEST0354,Male,0,No,Yes,20,No,Yes,Fiber optic,Yes,No,Yes,Yes,No,Yes,Month-to-month,No,Electronic check,105.39,3061.21,Yes
+TEST0355,Female,1,No,Yes,4,No,No,No,No internet service,Yes,No,Yes,Yes,No,One year,No,Bank transfer,39.16,4479.69,Yes
+TEST0356,Male,1,No,No,66,Yes,No,DSL,No internet service,Yes,No,No,No internet service,No internet service,Month-to-month,No,Electronic check,52.57,6442.86,Yes
+TEST0357,Male,1,No,No,49,No,No phone service,Fiber optic,No,No,No,No internet service,No,No,Two year,No,Bank transfer,33.68,4558.6,No
+TEST0358,Male,0,No,No,37,Yes,No phone service,No,Yes,No internet service,Yes,Yes,No,No internet service,One year,Yes,Electronic check,100.42,5990.1,No
+TEST0359,Female,1,Yes,No,45,No,No,DSL,No,No,No,No internet service,No,No internet service,Month-to-month,Yes,Mailed check,49.9,2261.81,No
+TEST0360,Female,1,Yes,Yes,20,Yes,No,No,Yes,Yes,No,No,No internet service,No,Two year,Yes,Credit card,36.9,4066.32,No
+TEST0361,Female,0,No,Yes,5,Yes,No phone service,Fiber optic,No internet service,Yes,No internet service,No,No,Yes,One year,Yes,Credit card,24.07,6234.6,Yes
+TEST0362,Male,1,No,Yes,40,Yes,Yes,No,Yes,Yes,Yes,Yes,No internet service,Yes,Two year,Yes,Credit card,95.98,5635.25,Yes
+TEST0363,Male,0,Yes,No,69,Yes,No phone service,DSL,No internet service,Yes,No internet service,No,Yes,No,One year,Yes,Bank transfer,66.01,6939.23,Yes
+TEST0364,Female,0,Yes,Yes,36,No,No phone service,DSL,No internet service,Yes,Yes,No,No,No,One year,Yes,Mailed check,55.3,4943.96,Yes
+TEST0365,Male,0,No,Yes,47,Yes,No phone service,No,No,No internet service,No,No internet service,No internet service,No,Month-to-month,No,Bank transfer,39.12,4468.93,No
+TEST0366,Female,0,No,Yes,9,No,No phone service,Fiber optic,No,Yes,No internet service,No internet service,No,No,Month-to-month,Yes,Mailed check,83.98,3558.43,Yes
+TEST0367,Female,0,No,No,5,No,No,Fiber optic,No,Yes,No,No internet service,No internet service,No,Month-to-month,No,Mailed check,30.88,2122.37,No
+TEST0368,Male,0,Yes,Yes,67,No,No,DSL,No,Yes,No internet service,Yes,No internet service,No internet service,Two year,No,Electronic check,114.34,2257.84,Yes
+TEST0369,Female,0,Yes,No,21,No,No phone service,Fiber optic,Yes,No,Yes,Yes,Yes,No,Two year,No,Mailed check,31.66,5097.61,No
+TEST0370,Female,1,Yes,No,1,Yes,No,No,Yes,Yes,No,No internet service,Yes,No,Month-to-month,Yes,Mailed check,21.15,1117.35,No
+TEST0371,Female,1,No,No,66,No,No phone service,No,Yes,Yes,Yes,No,No internet service,No internet service,Two year,Yes,Electronic check,81.48,2341.49,Yes
+TEST0372,Female,1,Yes,Yes,68,Yes,Yes,No,Yes,No internet service,No internet service,No internet service,No,No internet service,One year,No,Mailed check,40.16,3928.28,No
+TEST0373,Male,1,No,No,48,No,Yes,Fiber optic,No internet service,Yes,No,Yes,Yes,Yes,One year,No,Mailed check,20.75,4894.42,No
+TEST0374,Female,0,No,Yes,37,No,No,Fiber optic,No,No internet service,No,No internet service,Yes,No,Month-to-month,Yes,Bank transfer,63.01,5501.57,Yes
+TEST0375,Female,1,No,Yes,22,No,No,Fiber optic,No internet service,No internet service,Yes,No,No,No,Two year,Yes,Electronic check,117.17,1626.04,No
+TEST0376,Female,1,No,No,64,Yes,No phone service,Fiber optic,Yes,No,Yes,No internet service,No internet service,No,One year,No,Bank transfer,52.02,4488.31,Yes
+TEST0377,Female,0,Yes,Yes,38,No,Yes,No,Yes,No,Yes,Yes,Yes,No internet service,Two year,Yes,Credit card,79.51,1415.38,No
+TEST0378,Female,0,Yes,No,15,Yes,No phone service,Fiber optic,Yes,No internet service,No,No internet service,No internet service,Yes,One year,No,Bank transfer,36.29,3361.8,No
+TEST0379,Female,0,Yes,Yes,15,Yes,Yes,DSL,No,No,No,Yes,Yes,No,Two year,No,Bank transfer,61.07,2537.84,No
+TEST0380,Female,0,No,No,15,No,No phone service,Fiber optic,No internet service,No,No internet service,Yes,No,No,Month-to-month,Yes,Electronic check,83.14,6511.98,Yes
+TEST0381,Male,1,Yes,No,5,No,No phone service,No,No internet service,No internet service,Yes,Yes,Yes,No internet service,Two year,Yes,Credit card,21.96,7501.72,No
+TEST0382,Female,1,No,No,14,Yes,No phone service,No,No internet service,No,Yes,Yes,Yes,No internet service,Two year,Yes,Electronic check,75.78,5511.15,Yes
+TEST0383,Female,1,Yes,Yes,17,No,Yes,Fiber optic,No internet service,No internet service,Yes,No internet service,No internet service,No,Month-to-month,No,Mailed check,79.76,6445.51,Yes
+TEST0384,Male,0,Yes,No,20,Yes,Yes,Fiber optic,No,No,Yes,No internet service,Yes,No internet service,One year,Yes,Bank transfer,112.51,798.27,No
+TEST0385,Female,0,Yes,No,6,Yes,Yes,No,No internet service,No,No internet service,No,Yes,No,Two year,Yes,Mailed check,90.37,8176.51,Yes
+TEST0386,Male,0,No,Yes,11,No,Yes,DSL,Yes,No internet service,Yes,No internet service,No internet service,Yes,Month-to-month,No,Mailed check,75.57,719.87,No
+TEST0387,Male,0,Yes,Yes,41,Yes,No,No,No internet service,No,No internet service,Yes,No internet service,No internet service,Two year,No,Mailed check,22.92,8065.31,Yes
+TEST0388,Female,1,No,No,50,Yes,No phone service,DSL,No,Yes,Yes,Yes,No internet service,Yes,Month-to-month,No,Bank transfer,87.79,8364.43,Yes
+TEST0389,Male,0,No,Yes,71,Yes,Yes,Fiber optic,No internet service,Yes,No internet service,No,No,No,Month-to-month,No,Bank transfer,114.26,5855.66,Yes
+TEST0390,Male,1,Yes,No,57,Yes,Yes,Fiber optic,Yes,No internet service,No,No internet service,Yes,No,Two year,No,Bank transfer,112.65,2424.71,Yes
+TEST0391,Female,1,Yes,No,9,Yes,No,DSL,No internet service,No,No internet service,No,No,Yes,Month-to-month,No,Credit card,22.65,3929.73,No
+TEST0392,Female,0,Yes,No,14,Yes,Yes,No,No,No,No internet service,No internet service,Yes,No internet service,One year,Yes,Mailed check,94.08,978.34,No
+TEST0393,Male,0,Yes,No,22,No,No,No,No,No,No,Yes,No,No,Month-to-month,No,Mailed check,25.32,8236.87,No
+TEST0394,Female,0,No,Yes,63,No,Yes,DSL,No,No,No internet service,Yes,Yes,No,Month-to-month,Yes,Credit card,27.14,7861.24,No
+TEST0395,Female,1,Yes,No,69,Yes,Yes,Fiber optic,Yes,No internet service,No internet service,Yes,Yes,Yes,Two year,Yes,Electronic check,95.48,5299.17,No
+TEST0396,Male,0,No,No,25,No,No,DSL,No,Yes,No,No internet service,No internet service,No,Two year,Yes,Bank transfer,37.48,5856.84,No
+TEST0397,Male,1,Yes,No,59,No,No,No,No,No,No internet service,No,Yes,No,Two year,No,Bank transfer,84.75,2410.01,Yes
+TEST0398,Female,1,Yes,Yes,60,No,No,No,No internet service,No internet service,Yes,No,No,Yes,Two year,No,Mailed check,68.99,8215.32,No
+TEST0399,Female,1,Yes,No,21,No,No phone service,DSL,No,No internet service,No,Yes,No,Yes,Month-to-month,Yes,Bank transfer,31.73,2884.65,Yes
+TEST0400,Male,1,No,Yes,10,Yes,No phone service,Fiber optic,Yes,No,No internet service,No internet service,No,No,Month-to-month,Yes,Electronic check,83.47,2058.69,No
+TEST0401,Male,0,Yes,No,3,No,No,Fiber optic,Yes,No,No,Yes,No,No internet service,One year,No,Mailed check,90.02,2351.47,No
+TEST0402,Male,0,No,Yes,33,Yes,No phone service,DSL,No internet service,No,No internet service,No internet service,Yes,No internet service,One year,No,Bank transfer,41.05,2537.41,Yes
+TEST0403,Female,0,No,Yes,25,Yes,No phone service,No,No,No internet service,Yes,Yes,No internet service,No internet service,One year,Yes,Bank transfer,83.86,1510.77,Yes
+TEST0404,Male,0,Yes,No,10,No,No phone service,Fiber optic,No,Yes,No internet service,No internet service,No internet service,No,Two year,No,Bank transfer,32.36,7320.84,No
+TEST0405,Male,1,Yes,No,14,No,No,Fiber optic,No,Yes,No,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer,100.37,1780.52,No
+TEST0406,Female,1,No,Yes,66,Yes,No phone service,Fiber optic,Yes,No internet service,No,No internet service,No internet service,Yes,Two year,Yes,Bank transfer,45.36,1572.77,No
+TEST0407,Female,0,No,No,48,Yes,No phone service,No,No internet service,No,Yes,No internet service,No internet service,Yes,Month-to-month,Yes,Electronic check,20.76,4233.71,Yes
+TEST0408,Male,0,No,Yes,5,No,No,DSL,No internet service,Yes,No internet service,No,No,Yes,Month-to-month,No,Bank transfer,94.87,1441.76,No
+TEST0409,Male,0,No,Yes,40,Yes,Yes,DSL,Yes,Yes,No internet service,Yes,Yes,No internet service,Two year,Yes,Mailed check,80.64,4657.08,Yes
+TEST0410,Male,1,No,Yes,66,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,No,Two year,No,Credit card,63.43,5679.41,No
+TEST0411,Female,0,Yes,No,13,Yes,Yes,DSL,No internet service,Yes,Yes,No,No internet service,Yes,One year,No,Electronic check,72.75,2482.75,Yes
+TEST0412,Male,1,Yes,Yes,38,Yes,No phone service,DSL,No,Yes,No,Yes,No internet service,Yes,Month-to-month,Yes,Credit card,34.14,1315.0,Yes
+TEST0413,Female,1,Yes,Yes,1,Yes,No,Fiber optic,No,No internet service,Yes,No internet service,No internet service,No internet service,One year,Yes,Electronic check,48.26,882.91,No
+TEST0414,Male,1,No,Yes,60,Yes,No,No,No internet service,No,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Bank transfer,72.19,3532.92,Yes
+TEST0415,Male,0,Yes,No,39,Yes,No,Fiber optic,No,No internet service,No,Yes,No,No,One year,Yes,Credit card,84.27,8140.19,Yes
+TEST0416,Female,1,Yes,No,36,No,No phone service,DSL,No internet service,No internet service,No internet service,Yes,No,No,Month-to-month,No,Credit card,85.9,3927.09,No
+TEST0417,Male,0,No,No,23,Yes,Yes,Fiber optic,Yes,No,No,No internet service,Yes,No,One year,No,Mailed check,66.6,5240.01,No
+TEST0418,Male,1,No,Yes,49,Yes,Yes,No,Yes,No internet service,No,No,Yes,No,Two year,Yes,Mailed check,23.02,2484.26,Yes
+TEST0419,Male,0,Yes,Yes,34,No,No phone service,DSL,No,Yes,No,No internet service,Yes,No internet service,One year,Yes,Credit card,92.14,7285.25,Yes
+TEST0420,Female,1,No,No,10,Yes,No phone service,Fiber optic,Yes,No,No internet service,Yes,Yes,No internet service,Month-to-month,Yes,Credit card,37.23,1884.81,No
+TEST0421,Female,1,No,Yes,55,Yes,Yes,No,No internet service,No internet service,Yes,No internet service,Yes,No internet service,Two year,Yes,Bank transfer,92.91,5232.39,No
+TEST0422,Female,1,No,Yes,12,No,No,Fiber optic,No,Yes,No internet service,Yes,No internet service,No internet service,Two year,No,Credit card,111.11,5143.76,Yes
+TEST0423,Male,1,No,Yes,32,No,No phone service,Fiber optic,No,No internet service,Yes,No,No internet service,No,Two year,No,Electronic check,91.65,2907.74,No
+TEST0424,Male,1,Yes,No,72,No,No phone service,No,No internet service,No internet service,No internet service,Yes,Yes,No internet service,One year,No,Mailed check,33.24,6407.47,Yes
+TEST0425,Female,1,No,No,2,Yes,Yes,No,Yes,Yes,No,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,43.4,4234.87,Yes
+TEST0426,Male,0,No,Yes,45,No,No phone service,No,Yes,No,No internet service,No,Yes,No internet service,Two year,No,Mailed check,69.59,385.36,Yes
+TEST0427,Female,1,No,No,19,Yes,No,Fiber optic,No,No,No,Yes,No,No internet service,One year,No,Electronic check,69.53,3751.1,Yes
+TEST0428,Female,1,Yes,No,25,Yes,No,Fiber optic,No,Yes,No internet service,Yes,No,No,Month-to-month,No,Electronic check,98.95,6952.98,Yes
+TEST0429,Male,0,Yes,No,38,Yes,No,Fiber optic,No internet service,No,No,Yes,No,No,Month-to-month,Yes,Bank transfer,95.69,4840.04,Yes
+TEST0430,Male,0,No,Yes,30,Yes,No phone service,DSL,No internet service,No,Yes,No,Yes,No internet service,Two year,Yes,Bank transfer,34.45,1135.54,No
+TEST0431,Female,0,Yes,Yes,72,Yes,Yes,No,No internet service,No,Yes,Yes,No,No,One year,No,Bank transfer,28.71,4863.72,Yes
+TEST0432,Female,0,Yes,Yes,64,Yes,Yes,DSL,No,No,Yes,No internet service,No internet service,No,One year,No,Credit card,37.08,2556.65,No
+TEST0433,Male,0,Yes,Yes,16,No,No,DSL,No internet service,No internet service,No internet service,No,No internet service,Yes,Two year,Yes,Mailed check,54.98,4372.79,No
+TEST0434,Male,0,No,No,52,Yes,Yes,Fiber optic,Yes,No,No,No internet service,Yes,Yes,One year,Yes,Electronic check,39.51,3452.07,No
+TEST0435,Female,1,Yes,No,50,No,No phone service,DSL,No,Yes,Yes,No,Yes,Yes,One year,No,Bank transfer,119.14,8003.08,No
+TEST0436,Male,1,Yes,Yes,67,Yes,No phone service,No,No,Yes,No,No internet service,Yes,No,Two year,Yes,Electronic check,104.5,5904.09,No
+TEST0437,Female,1,Yes,Yes,1,Yes,No phone service,Fiber optic,No internet service,No internet service,No,No,Yes,Yes,Two year,Yes,Mailed check,86.3,5861.42,No
+TEST0438,Male,0,No,No,4,Yes,No phone service,Fiber optic,No internet service,Yes,Yes,No internet service,Yes,Yes,Month-to-month,Yes,Electronic check,32.3,187.35,No
+TEST0439,Female,1,Yes,No,34,Yes,No phone service,Fiber optic,No internet service,Yes,Yes,Yes,Yes,No,One year,No,Mailed check,61.7,7191.18,Yes
+TEST0440,Male,1,Yes,No,26,Yes,No phone service,DSL,No internet service,Yes,Yes,Yes,No,No internet service,Month-to-month,No,Mailed check,89.58,1998.89,No
+TEST0441,Male,1,Yes,Yes,8,Yes,Yes,No,No,No,Yes,Yes,No internet service,Yes,Two year,No,Electronic check,42.8,7712.74,Yes
+TEST0442,Male,0,No,Yes,46,Yes,No phone service,Fiber optic,No internet service,No,No,No,Yes,No,One year,No,Electronic check,111.42,1080.14,Yes
+TEST0443,Male,1,No,Yes,29,Yes,No phone service,No,Yes,Yes,No,No internet service,Yes,Yes,One year,No,Mailed check,89.59,5611.86,No
+TEST0444,Male,1,No,No,47,No,No,Fiber optic,No,Yes,No,No internet service,Yes,Yes,One year,No,Electronic check,43.43,3239.45,No
+TEST0445,Male,1,Yes,Yes,70,No,No,No,Yes,Yes,No internet service,No internet service,Yes,Yes,Month-to-month,No,Bank transfer,67.02,623.81,No
+TEST0446,Female,1,Yes,Yes,24,No,Yes,No,No internet service,Yes,No,Yes,No,No internet service,One year,Yes,Electronic check,28.45,685.08,No
+TEST0447,Male,1,No,Yes,17,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,Two year,Yes,Mailed check,28.0,274.13,Yes
+TEST0448,Male,0,No,Yes,33,No,No,Fiber optic,No internet service,No,No,No,Yes,No,Month-to-month,Yes,Credit card,78.15,6273.79,No
+TEST0449,Male,0,Yes,Yes,37,Yes,Yes,Fiber optic,No internet service,Yes,No,Yes,No,No internet service,Two year,No,Electronic check,105.22,3217.74,Yes
+TEST0450,Male,1,Yes,No,66,Yes,No phone service,DSL,Yes,Yes,No,No,Yes,No internet service,Month-to-month,No,Electronic check,40.02,7950.38,Yes
+TEST0451,Male,0,No,No,55,No,No phone service,Fiber optic,Yes,No,No,No internet service,No,No,Two year,No,Bank transfer,99.59,4749.14,Yes
+TEST0452,Male,0,Yes,No,26,No,Yes,DSL,Yes,Yes,No internet service,No internet service,No,Yes,Month-to-month,Yes,Credit card,76.66,1469.8,Yes
+TEST0453,Female,1,No,Yes,1,No,No,Fiber optic,Yes,Yes,No internet service,No,No,No internet service,One year,Yes,Electronic check,46.35,8115.54,Yes
+TEST0454,Male,1,Yes,No,37,Yes,Yes,No,No internet service,Yes,No internet service,No,Yes,No internet service,One year,Yes,Credit card,74.43,782.65,Yes
+TEST0455,Male,1,No,Yes,5,Yes,Yes,No,No,Yes,No internet service,Yes,Yes,No,Two year,Yes,Bank transfer,75.39,2584.79,No
+TEST0456,Male,0,No,No,41,No,No phone service,DSL,No internet service,No internet service,No,No internet service,No internet service,No internet service,Two year,Yes,Credit card,71.51,8225.35,No
+TEST0457,Male,0,Yes,No,6,Yes,No,DSL,No internet service,Yes,No,No,Yes,No internet service,Month-to-month,Yes,Bank transfer,59.26,1266.29,Yes
+TEST0458,Female,0,No,No,5,Yes,No phone service,No,No,No internet service,No,No internet service,No internet service,No internet service,Month-to-month,No,Credit card,26.97,5258.77,No
+TEST0459,Male,1,Yes,No,39,No,No,No,No,No,No,No internet service,No,Yes,One year,Yes,Mailed check,25.71,1837.72,Yes
+TEST0460,Female,0,No,No,14,No,No phone service,Fiber optic,Yes,No internet service,Yes,No internet service,Yes,No internet service,Two year,Yes,Credit card,59.76,1396.58,No
+TEST0461,Male,1,No,Yes,13,No,Yes,Fiber optic,Yes,Yes,No,No,Yes,No,Two year,No,Electronic check,52.23,5444.2,No
+TEST0462,Male,1,Yes,Yes,52,Yes,No phone service,Fiber optic,Yes,No,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card,26.44,189.17,Yes
+TEST0463,Male,0,No,No,58,Yes,No phone service,No,No,Yes,No internet service,No,No internet service,Yes,Two year,No,Mailed check,75.05,2923.64,Yes
+TEST0464,Male,0,No,No,4,No,No,No,Yes,Yes,No,No internet service,No,No internet service,Two year,Yes,Mailed check,100.57,4325.33,Yes
+TEST0465,Female,1,No,Yes,57,Yes,No phone service,Fiber optic,Yes,No internet service,No,Yes,Yes,No internet service,Two year,No,Mailed check,69.34,6911.1,Yes
+TEST0466,Male,0,Yes,No,17,Yes,No phone service,Fiber optic,No,No,Yes,No internet service,Yes,Yes,One year,Yes,Electronic check,100.16,6910.92,Yes
+TEST0467,Male,1,No,Yes,14,No,No phone service,DSL,Yes,No,Yes,No internet service,No internet service,Yes,One year,No,Mailed check,54.71,4183.61,Yes
+TEST0468,Male,1,No,No,43,Yes,No,DSL,No internet service,No,No internet service,Yes,No internet service,Yes,Two year,Yes,Electronic check,115.62,1119.78,No
+TEST0469,Male,1,Yes,No,7,Yes,No phone service,DSL,Yes,No internet service,Yes,No,Yes,No internet service,One year,No,Bank transfer,30.92,7323.99,No
+TEST0470,Female,0,No,Yes,45,No,No,DSL,Yes,No internet service,Yes,No internet service,No internet service,Yes,Two year,No,Electronic check,41.07,8375.32,Yes
+TEST0471,Female,1,No,Yes,68,Yes,No,Fiber optic,No internet service,Yes,Yes,Yes,No internet service,No,One year,No,Bank transfer,22.25,1517.85,Yes
+TEST0472,Male,0,Yes,Yes,52,No,No phone service,DSL,Yes,No,Yes,No internet service,No internet service,No,Month-to-month,Yes,Credit card,86.45,7297.63,Yes
+TEST0473,Female,1,No,Yes,5,No,Yes,Fiber optic,No internet service,No,Yes,Yes,No,No,Month-to-month,No,Credit card,43.35,6034.18,No
+TEST0474,Male,0,No,Yes,23,No,Yes,No,No internet service,No,No,No,No internet service,No,One year,No,Electronic check,21.85,4537.26,No
+TEST0475,Female,0,Yes,Yes,51,Yes,No phone service,DSL,Yes,No,No internet service,Yes,Yes,No,One year,No,Bank transfer,78.44,2976.16,No
+TEST0476,Male,0,No,No,10,No,No phone service,DSL,No internet service,No internet service,No,No,Yes,No internet service,One year,No,Credit card,96.04,1933.33,Yes
+TEST0477,Male,1,No,No,53,No,No phone service,DSL,No internet service,No internet service,No internet service,No,No,Yes,Two year,Yes,Bank transfer,38.04,5119.84,Yes
+TEST0478,Male,1,No,Yes,28,Yes,No phone service,Fiber optic,No internet service,No internet service,No,No internet service,No,No,Two year,No,Credit card,108.1,3840.82,No
+TEST0479,Female,0,Yes,Yes,60,No,No,Fiber optic,Yes,No internet service,No internet service,No internet service,Yes,Yes,Two year,Yes,Mailed check,114.11,1711.54,Yes
+TEST0480,Female,0,No,No,72,Yes,No,DSL,Yes,No,Yes,Yes,Yes,No,Month-to-month,Yes,Credit card,86.98,287.78,Yes
+TEST0481,Female,0,No,Yes,51,Yes,No phone service,No,Yes,No internet service,No internet service,No,Yes,Yes,Two year,Yes,Bank transfer,41.64,577.68,No
+TEST0482,Female,1,No,No,37,No,No,Fiber optic,No,No internet service,No,No,Yes,No,One year,No,Bank transfer,84.1,1916.83,No
+TEST0483,Female,0,Yes,No,28,Yes,No,No,No,No,No,Yes,Yes,No,One year,Yes,Electronic check,101.78,7961.56,No
+TEST0484,Female,0,No,No,20,No,No phone service,No,Yes,Yes,No internet service,Yes,No,No,One year,Yes,Bank transfer,94.93,982.58,No
+TEST0485,Female,0,No,Yes,69,Yes,No,No,Yes,No internet service,No internet service,No internet service,No,No internet service,Month-to-month,No,Electronic check,85.02,8223.52,No
+TEST0486,Male,0,Yes,Yes,4,Yes,No,Fiber optic,No,No,No internet service,Yes,No,No,One year,Yes,Mailed check,103.13,4132.95,Yes
+TEST0487,Male,1,No,No,13,Yes,No,DSL,No internet service,No internet service,No internet service,Yes,No internet service,Yes,Two year,Yes,Credit card,97.16,3866.77,Yes
+TEST0488,Male,1,No,No,51,No,Yes,Fiber optic,No internet service,No,No,No,Yes,No,One year,No,Credit card,102.54,5085.06,No
+TEST0489,Female,1,Yes,No,10,Yes,No phone service,DSL,Yes,Yes,Yes,No,Yes,No,Month-to-month,No,Mailed check,52.77,7994.72,Yes
+TEST0490,Male,0,No,No,47,Yes,Yes,No,No internet service,Yes,Yes,No internet service,No,No,Two year,No,Mailed check,105.83,3554.85,No
+TEST0491,Female,0,No,No,49,Yes,No,Fiber optic,No internet service,No internet service,No,No,Yes,No,One year,Yes,Mailed check,48.78,992.09,No
+TEST0492,Female,1,No,No,71,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Two year,No,Bank transfer,29.67,4085.34,No
+TEST0493,Female,1,No,Yes,66,Yes,No phone service,Fiber optic,Yes,Yes,No internet service,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,50.92,4972.95,No
+TEST0494,Male,0,No,No,23,No,No,Fiber optic,Yes,Yes,No,No,Yes,No internet service,One year,No,Bank transfer,86.26,519.9,No
+TEST0495,Male,0,No,No,22,No,No phone service,DSL,Yes,Yes,No,No,No internet service,Yes,One year,Yes,Bank transfer,96.49,2886.1,Yes
+TEST0496,Male,0,Yes,Yes,21,Yes,Yes,Fiber optic,Yes,No,No internet service,No,No,Yes,Two year,Yes,Electronic check,99.29,2798.73,No
+TEST0497,Male,1,No,Yes,57,No,No,Fiber optic,No,No internet service,No,No,No,No internet service,One year,Yes,Credit card,52.38,7100.35,No
+TEST0498,Female,0,No,Yes,18,Yes,No phone service,No,No internet service,No,Yes,No,No internet service,No,Month-to-month,Yes,Bank transfer,28.25,1942.77,Yes
+TEST0499,Male,0,No,Yes,37,No,No phone service,No,Yes,Yes,No,Yes,Yes,No,Two year,Yes,Credit card,50.42,8089.07,No
+TEST0500,Female,0,No,Yes,64,No,No,Fiber optic,No internet service,No internet service,No,No internet service,No internet service,No,Two year,No,Electronic check,104.48,5459.98,Yes
+TEST0501,Female,1,No,Yes,20,Yes,No,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No,Two year,Yes,Mailed check,81.92,5335.32,No
+TEST0502,Male,1,Yes,Yes,12,No,Yes,No,Yes,No internet service,Yes,No internet service,No internet service,No,Month-to-month,No,Bank transfer,35.59,1472.46,Yes
+TEST0503,Female,0,Yes,No,56,Yes,Yes,DSL,No internet service,Yes,No,No internet service,No,Yes,Month-to-month,Yes,Mailed check,27.3,6948.64,Yes
+TEST0504,Male,1,Yes,Yes,62,No,No,No,No internet service,No internet service,No,No,No,No,Two year,No,Bank transfer,65.07,7369.91,Yes
+TEST0505,Male,0,Yes,No,5,Yes,Yes,Fiber optic,No internet service,Yes,No internet service,No,Yes,No internet service,One year,No,Electronic check,84.27,5190.54,Yes
+TEST0506,Female,0,Yes,Yes,2,No,No phone service,Fiber optic,Yes,No internet service,No,No internet service,No,Yes,Two year,No,Credit card,31.37,2671.82,No
+TEST0507,Male,1,No,No,50,Yes,No,DSL,Yes,Yes,No internet service,No,No internet service,Yes,Month-to-month,Yes,Bank transfer,77.63,4736.97,No
+TEST0508,Male,0,No,No,7,Yes,Yes,Fiber optic,Yes,No,No internet service,No,Yes,Yes,Two year,No,Mailed check,26.07,3581.7,No
+TEST0509,Female,0,Yes,No,38,No,No phone service,DSL,No,Yes,No internet service,No internet service,Yes,Yes,One year,Yes,Credit card,95.73,866.39,No
+TEST0510,Female,0,No,No,24,Yes,No phone service,Fiber optic,No,Yes,No,No,Yes,No internet service,Two year,No,Mailed check,114.64,1979.23,Yes
+TEST0511,Female,0,No,No,36,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No,No internet service,One year,No,Bank transfer,33.58,2840.59,Yes
+TEST0512,Male,0,No,No,58,Yes,No,Fiber optic,No internet service,No,No,Yes,No internet service,No internet service,Two year,Yes,Credit card,112.96,8514.17,No
+TEST0513,Female,0,No,Yes,18,Yes,Yes,No,No internet service,Yes,No internet service,No,No internet service,No,Month-to-month,Yes,Bank transfer,71.18,4405.22,No
+TEST0514,Female,0,No,Yes,3,Yes,No phone service,DSL,No internet service,No,No,No internet service,Yes,Yes,Month-to-month,No,Electronic check,77.9,7872.11,No
+TEST0515,Male,1,No,No,66,Yes,Yes,Fiber optic,No,No internet service,Yes,No,No internet service,No,Month-to-month,Yes,Mailed check,34.27,4386.87,No
+TEST0516,Female,0,Yes,No,64,No,No phone service,DSL,No internet service,No internet service,No internet service,Yes,No internet service,No internet service,Two year,No,Credit card,56.98,719.93,No
+TEST0517,Female,1,Yes,Yes,59,No,No phone service,DSL,No internet service,No internet service,No,No,No internet service,Yes,One year,Yes,Electronic check,65.79,3351.37,Yes
+TEST0518,Male,1,No,No,17,Yes,No phone service,No,No internet service,No internet service,Yes,Yes,Yes,No internet service,One year,Yes,Bank transfer,89.19,8178.47,No
+TEST0519,Female,0,No,Yes,51,Yes,No phone service,No,No,No,Yes,Yes,Yes,No,One year,No,Mailed check,84.1,4098.12,Yes
+TEST0520,Male,0,Yes,Yes,16,No,No phone service,No,Yes,No,No,No internet service,No,No,One year,No,Bank transfer,70.31,5781.35,No
+TEST0521,Male,0,Yes,Yes,43,Yes,No,DSL,No internet service,Yes,No internet service,Yes,Yes,No internet service,One year,No,Mailed check,71.79,7067.75,No
+TEST0522,Female,0,No,No,7,No,No,No,Yes,No,No,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,20.07,4354.88,Yes
+TEST0523,Male,1,Yes,Yes,30,No,Yes,DSL,No,No,No internet service,No internet service,Yes,No internet service,Two year,No,Credit card,101.31,5679.88,Yes
+TEST0524,Male,1,No,No,13,No,Yes,DSL,Yes,No internet service,Yes,No internet service,Yes,No internet service,One year,No,Mailed check,39.73,7689.43,No
+TEST0525,Male,0,Yes,Yes,61,Yes,No,Fiber optic,No,No,Yes,No internet service,No internet service,Yes,Month-to-month,No,Mailed check,41.43,1483.39,Yes
+TEST0526,Female,0,No,Yes,70,No,Yes,No,No internet service,No internet service,Yes,No internet service,No,No internet service,One year,No,Electronic check,96.53,5129.52,Yes
+TEST0527,Male,0,Yes,Yes,1,Yes,No,Fiber optic,No,No internet service,Yes,No,No,No,Two year,No,Electronic check,67.18,5612.35,Yes
+TEST0528,Male,0,No,Yes,10,Yes,No phone service,Fiber optic,Yes,No,No internet service,No,No,No,Two year,Yes,Mailed check,86.93,1269.42,Yes
+TEST0529,Male,0,No,Yes,26,Yes,Yes,Fiber optic,No internet service,Yes,Yes,No internet service,No,Yes,One year,No,Electronic check,97.6,5852.39,Yes
+TEST0530,Female,0,No,No,45,Yes,Yes,Fiber optic,Yes,No internet service,Yes,Yes,No internet service,No,One year,Yes,Credit card,49.29,7686.75,No
+TEST0531,Female,0,Yes,Yes,39,No,Yes,Fiber optic,No internet service,No,Yes,Yes,Yes,No internet service,One year,Yes,Mailed check,100.13,5825.53,Yes
+TEST0532,Male,1,No,No,13,No,Yes,No,Yes,No internet service,No internet service,No,No internet service,No,Two year,Yes,Mailed check,117.56,3960.33,No
+TEST0533,Female,1,No,Yes,56,Yes,Yes,No,No internet service,Yes,No internet service,No internet service,Yes,Yes,One year,No,Bank transfer,116.01,1352.53,No
+TEST0534,Female,0,Yes,No,33,Yes,No,No,No internet service,Yes,No internet service,Yes,No internet service,No,Month-to-month,Yes,Bank transfer,41.07,6351.11,No
+TEST0535,Male,0,Yes,No,46,Yes,Yes,DSL,Yes,No internet service,No internet service,No internet service,Yes,No internet service,Two year,Yes,Mailed check,31.44,1617.71,Yes
+TEST0536,Female,0,No,Yes,15,Yes,Yes,No,Yes,No internet service,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,53.67,7079.1,Yes
+TEST0537,Male,0,No,No,18,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No internet service,Two year,No,Credit card,60.47,7192.6,No
+TEST0538,Female,1,Yes,Yes,23,Yes,No phone service,DSL,No internet service,Yes,No,Yes,Yes,Yes,Two year,Yes,Credit card,56.61,158.82,Yes
+TEST0539,Male,0,Yes,No,53,Yes,No,No,Yes,No,No,No internet service,Yes,Yes,One year,Yes,Electronic check,63.83,5497.36,Yes
+TEST0540,Female,0,No,No,57,Yes,No phone service,No,Yes,No,Yes,No internet service,No internet service,No,One year,No,Mailed check,111.94,3170.84,Yes
+TEST0541,Female,0,No,Yes,29,No,Yes,Fiber optic,No,Yes,No,No internet service,No internet service,Yes,Two year,No,Electronic check,117.15,5956.68,Yes
+TEST0542,Male,1,Yes,Yes,35,No,No,No,No,Yes,No internet service,No internet service,No,No,Two year,No,Mailed check,53.34,2459.58,No
+TEST0543,Male,1,No,Yes,36,Yes,Yes,DSL,No internet service,Yes,No,No internet service,Yes,Yes,One year,Yes,Credit card,23.58,189.26,Yes
+TEST0544,Female,1,No,Yes,57,Yes,Yes,DSL,No,Yes,Yes,No internet service,No internet service,No,Two year,Yes,Electronic check,118.8,3155.35,Yes
+TEST0545,Female,0,No,Yes,21,Yes,Yes,DSL,Yes,No internet service,No,Yes,No,No internet service,One year,No,Electronic check,21.09,2847.62,No
+TEST0546,Male,1,No,Yes,29,No,Yes,DSL,No,Yes,Yes,No internet service,Yes,Yes,Month-to-month,No,Mailed check,65.97,4088.93,No
+TEST0547,Male,0,Yes,Yes,3,Yes,No phone service,Fiber optic,Yes,No,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer,111.96,6002.25,No
+TEST0548,Male,1,No,No,65,No,No,Fiber optic,Yes,No,No internet service,Yes,Yes,No internet service,One year,No,Credit card,114.6,4524.23,Yes
+TEST0549,Female,0,Yes,No,34,Yes,No,DSL,No internet service,No internet service,Yes,Yes,No,Yes,Month-to-month,No,Credit card,107.43,8424.24,No
+TEST0550,Female,1,Yes,No,58,No,Yes,DSL,No,No internet service,No internet service,Yes,No internet service,Yes,One year,Yes,Credit card,93.19,1549.61,No
+TEST0551,Female,1,Yes,No,53,Yes,No,Fiber optic,No,No,No,No,No,No internet service,Two year,Yes,Credit card,37.09,3791.3,Yes
+TEST0552,Male,0,No,No,53,Yes,No phone service,No,No,No,Yes,Yes,No,No,Two year,Yes,Credit card,23.64,24.99,Yes
+TEST0553,Male,0,Yes,Yes,42,Yes,No phone service,Fiber optic,No,No,No internet service,No,Yes,No internet service,Month-to-month,No,Mailed check,91.17,7905.13,No
+TEST0554,Female,1,Yes,Yes,60,No,No,Fiber optic,No internet service,Yes,Yes,No internet service,No internet service,No,One year,Yes,Bank transfer,105.61,7173.21,No
+TEST0555,Female,0,Yes,No,2,No,No phone service,DSL,No,No internet service,No,No,No internet service,Yes,One year,No,Credit card,49.63,3608.8,No
+TEST0556,Female,1,Yes,No,46,No,Yes,No,No internet service,No,No internet service,No,No,Yes,Two year,No,Bank transfer,20.21,1590.26,No
+TEST0557,Male,0,Yes,No,3,No,Yes,DSL,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Electronic check,57.94,2382.65,No
+TEST0558,Male,1,No,No,7,Yes,No phone service,DSL,No,Yes,No,No internet service,No internet service,No,Two year,No,Credit card,89.92,5823.64,No
+TEST0559,Male,1,Yes,Yes,24,Yes,No,Fiber optic,No,No,No internet service,No internet service,No,Yes,One year,No,Credit card,96.08,5001.8,No
+TEST0560,Male,0,No,No,2,No,Yes,Fiber optic,No internet service,No,No internet service,No internet service,No,No internet service,One year,No,Bank transfer,84.69,4201.54,No
+TEST0561,Male,0,No,No,24,No,No,Fiber optic,No internet service,No internet service,No,No,Yes,No,Two year,No,Electronic check,104.76,7698.62,No
+TEST0562,Male,1,No,No,39,Yes,No,Fiber optic,No,Yes,No internet service,No internet service,No,No,Month-to-month,Yes,Credit card,90.59,3953.81,Yes
+TEST0563,Male,0,No,No,36,No,No phone service,DSL,No,No internet service,Yes,No,No internet service,No,One year,No,Mailed check,33.02,767.41,No
+TEST0564,Female,0,Yes,No,40,Yes,No,DSL,Yes,No,No,No,Yes,No,One year,No,Electronic check,118.04,6725.6,No
+TEST0565,Female,1,No,Yes,49,Yes,Yes,Fiber optic,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Electronic check,25.4,2107.02,No
+TEST0566,Female,0,No,No,31,No,No,DSL,No,Yes,No,No,Yes,No,Month-to-month,Yes,Bank transfer,74.54,2583.99,No
+TEST0567,Female,0,No,Yes,68,No,Yes,DSL,Yes,No internet service,Yes,Yes,Yes,No internet service,One year,No,Credit card,92.3,7983.34,No
+TEST0568,Male,0,No,Yes,51,Yes,No phone service,DSL,No internet service,Yes,No,No,Yes,No,Two year,Yes,Electronic check,52.27,925.32,Yes
+TEST0569,Male,0,Yes,Yes,19,No,No,No,No internet service,No,Yes,No internet service,No,No internet service,Two year,Yes,Electronic check,96.58,4336.86,No
+TEST0570,Female,0,Yes,Yes,10,No,No phone service,No,Yes,No,No,No,No internet service,No,One year,Yes,Bank transfer,79.64,4520.19,No
+TEST0571,Male,1,Yes,Yes,27,Yes,Yes,Fiber optic,No internet service,Yes,Yes,Yes,No,Yes,Two year,Yes,Bank transfer,88.35,1382.05,Yes
+TEST0572,Female,1,No,Yes,29,No,No,Fiber optic,No,No,No,No internet service,No,Yes,One year,No,Mailed check,54.34,7789.58,Yes
+TEST0573,Male,0,Yes,No,44,Yes,No,DSL,No internet service,No,No internet service,No internet service,Yes,No internet service,Two year,Yes,Credit card,67.82,4802.72,Yes
+TEST0574,Female,1,Yes,No,18,No,No phone service,Fiber optic,No,No internet service,Yes,No internet service,No internet service,No,One year,Yes,Electronic check,97.78,3117.39,Yes
+TEST0575,Male,1,No,No,32,No,No,Fiber optic,No,No internet service,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Mailed check,80.97,7291.62,Yes
+TEST0576,Female,0,Yes,No,68,No,No,Fiber optic,No internet service,Yes,Yes,No,Yes,No internet service,Month-to-month,No,Electronic check,55.28,1101.82,No
+TEST0577,Female,1,No,Yes,33,Yes,No,Fiber optic,No internet service,No,No internet service,No internet service,No internet service,Yes,One year,Yes,Bank transfer,104.02,6313.29,Yes
+TEST0578,Female,0,No,Yes,1,Yes,No phone service,DSL,No internet service,Yes,No,No internet service,No internet service,No,Two year,No,Bank transfer,65.49,8275.31,No
+TEST0579,Male,0,No,Yes,61,No,No phone service,DSL,No internet service,Yes,No,Yes,No,Yes,One year,No,Electronic check,43.41,7093.34,Yes
+TEST0580,Male,0,Yes,No,55,Yes,No,No,No internet service,Yes,No internet service,No,No,No internet service,One year,Yes,Bank transfer,112.9,178.05,Yes
+TEST0581,Male,1,No,Yes,63,Yes,No phone service,DSL,Yes,No internet service,Yes,Yes,Yes,No,Two year,No,Electronic check,108.4,7602.12,No
+TEST0582,Male,1,No,No,43,Yes,No,No,Yes,No internet service,Yes,No internet service,No,No,One year,Yes,Credit card,49.8,4409.67,Yes
+TEST0583,Male,0,Yes,No,70,Yes,Yes,Fiber optic,No,No internet service,No internet service,Yes,Yes,No internet service,One year,Yes,Credit card,26.35,6973.83,Yes
+TEST0584,Male,0,Yes,Yes,53,Yes,Yes,No,No,No,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,100.17,926.15,No
+TEST0585,Female,1,Yes,Yes,52,No,Yes,Fiber optic,No internet service,No internet service,No internet service,Yes,No,No,Month-to-month,Yes,Credit card,110.11,6977.75,No
+TEST0586,Female,0,No,Yes,34,Yes,No phone service,DSL,Yes,No,No internet service,Yes,No internet service,No,One year,No,Credit card,50.67,6460.75,No
+TEST0587,Female,0,Yes,No,34,No,No,No,No internet service,Yes,Yes,No,Yes,Yes,One year,No,Credit card,86.05,1003.24,Yes
+TEST0588,Female,0,Yes,Yes,31,Yes,No phone service,No,Yes,Yes,Yes,No,Yes,No internet service,Two year,No,Mailed check,112.58,763.08,No
+TEST0589,Male,1,Yes,No,47,Yes,Yes,DSL,No,No internet service,No,No,No internet service,No,Month-to-month,No,Bank transfer,102.2,1422.62,No
+TEST0590,Male,1,Yes,No,70,Yes,No,DSL,No internet service,No,Yes,Yes,Yes,No,Month-to-month,No,Mailed check,80.66,1494.39,Yes
+TEST0591,Female,1,Yes,Yes,68,Yes,No phone service,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,78.71,8280.82,No
+TEST0592,Female,0,Yes,No,15,No,No,No,Yes,No,No,No,Yes,No internet service,Month-to-month,Yes,Bank transfer,91.54,1389.62,Yes
+TEST0593,Female,0,No,Yes,67,Yes,Yes,DSL,No,Yes,No internet service,No,No internet service,No internet service,Two year,Yes,Electronic check,24.19,6197.96,Yes
+TEST0594,Female,0,No,Yes,10,Yes,No,DSL,No internet service,Yes,Yes,No internet service,No internet service,Yes,One year,No,Electronic check,83.78,6352.54,No
+TEST0595,Male,1,Yes,No,61,No,No,No,No,No internet service,Yes,No,No,No internet service,Two year,No,Mailed check,67.0,4186.42,Yes
+TEST0596,Male,1,Yes,No,10,Yes,No phone service,No,No internet service,No,No internet service,No internet service,No internet service,Yes,Two year,Yes,Credit card,24.34,1580.13,No
+TEST0597,Male,0,No,Yes,68,Yes,No,DSL,No,Yes,No internet service,Yes,Yes,No,Month-to-month,No,Credit card,115.46,7894.55,Yes
+TEST0598,Male,1,No,Yes,4,Yes,Yes,No,No,Yes,No internet service,Yes,Yes,Yes,Two year,Yes,Credit card,65.17,3041.14,No
+TEST0599,Female,1,No,Yes,63,No,No phone service,DSL,Yes,No internet service,No internet service,Yes,Yes,No internet service,Month-to-month,Yes,Mailed check,105.36,7483.26,Yes
+TEST0600,Female,0,Yes,No,69,Yes,Yes,No,Yes,Yes,No,No internet service,No internet service,No internet service,Two year,No,Electronic check,101.14,6276.73,Yes
+TEST0601,Male,0,Yes,Yes,59,Yes,No,Fiber optic,No,No internet service,No,No,No,No,Two year,No,Bank transfer,116.23,5517.03,No
+TEST0602,Male,1,No,No,65,Yes,No,No,No internet service,Yes,Yes,Yes,Yes,No internet service,Two year,No,Mailed check,39.61,815.34,Yes
+TEST0603,Female,1,No,Yes,11,No,No phone service,DSL,No,No internet service,No internet service,No,Yes,Yes,Month-to-month,No,Electronic check,25.18,4331.33,Yes
+TEST0604,Female,1,No,Yes,66,No,No phone service,No,No,No,No internet service,No internet service,Yes,Yes,One year,Yes,Bank transfer,39.04,2725.03,Yes
+TEST0605,Female,1,No,Yes,5,No,No,DSL,Yes,No,No internet service,No,Yes,No internet service,One year,No,Bank transfer,90.86,3180.66,Yes
+TEST0606,Female,0,Yes,No,8,No,No phone service,No,No,No internet service,Yes,Yes,Yes,Yes,One year,No,Mailed check,51.37,4749.02,Yes
+TEST0607,Female,0,No,Yes,26,No,No phone service,Fiber optic,Yes,No internet service,No internet service,Yes,Yes,No internet service,Month-to-month,No,Bank transfer,52.45,965.31,No
+TEST0608,Female,1,No,No,51,Yes,No,DSL,No internet service,No internet service,Yes,Yes,No,No,Month-to-month,Yes,Credit card,43.56,3024.87,No
+TEST0609,Male,1,Yes,No,8,No,Yes,No,No,Yes,Yes,No,Yes,No internet service,Month-to-month,No,Bank transfer,88.35,541.04,Yes
+TEST0610,Male,0,No,Yes,54,No,No phone service,No,No internet service,Yes,No,No,No internet service,No,Month-to-month,Yes,Electronic check,108.29,5558.9,Yes
+TEST0611,Male,1,Yes,Yes,19,No,No phone service,DSL,Yes,Yes,Yes,Yes,No,No internet service,One year,Yes,Credit card,88.48,6961.51,No
+TEST0612,Female,1,No,Yes,36,Yes,Yes,Fiber optic,No internet service,Yes,No,No internet service,No,Yes,Month-to-month,Yes,Mailed check,72.23,7952.67,No
+TEST0613,Female,0,Yes,Yes,56,No,Yes,DSL,Yes,Yes,No internet service,No internet service,No internet service,No,One year,Yes,Mailed check,70.51,1397.74,No
+TEST0614,Male,0,No,No,60,No,No phone service,DSL,No internet service,Yes,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,57.39,194.48,No
+TEST0615,Male,0,No,Yes,24,No,No,Fiber optic,No internet service,Yes,No,No internet service,No,No internet service,Month-to-month,Yes,Bank transfer,23.61,4853.77,No
+TEST0616,Female,1,No,No,46,Yes,Yes,Fiber optic,No internet service,Yes,Yes,No,No,Yes,Two year,No,Mailed check,52.41,3126.18,No
+TEST0617,Female,1,No,No,28,Yes,No phone service,DSL,No,No internet service,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,36.16,8571.5,Yes
+TEST0618,Female,0,Yes,Yes,13,No,Yes,No,No internet service,Yes,Yes,No,No,No internet service,Two year,No,Electronic check,41.7,669.53,No
+TEST0619,Female,0,No,No,40,Yes,No phone service,DSL,Yes,Yes,No,Yes,Yes,No internet service,Two year,No,Mailed check,49.92,5618.15,No
+TEST0620,Female,0,Yes,Yes,18,No,No,Fiber optic,Yes,Yes,No,Yes,Yes,No internet service,Two year,Yes,Mailed check,63.41,6342.18,Yes
+TEST0621,Female,1,Yes,Yes,29,Yes,No,DSL,No internet service,Yes,No,Yes,Yes,Yes,One year,No,Bank transfer,115.96,5540.47,Yes
+TEST0622,Female,1,Yes,Yes,72,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No internet service,No,Two year,Yes,Bank transfer,51.26,2057.5,No
+TEST0623,Male,1,Yes,Yes,27,No,Yes,DSL,No internet service,No internet service,No internet service,No internet service,No internet service,No,One year,No,Electronic check,36.62,3229.26,No
+TEST0624,Male,0,Yes,Yes,3,No,No phone service,No,No,No,No,Yes,No internet service,Yes,One year,Yes,Electronic check,89.45,7152.99,Yes
+TEST0625,Female,0,No,No,34,Yes,No phone service,No,No,Yes,No internet service,Yes,No internet service,Yes,One year,No,Bank transfer,85.83,2377.19,Yes
+TEST0626,Female,1,Yes,No,37,No,No phone service,DSL,No internet service,Yes,No internet service,Yes,No,No,One year,Yes,Bank transfer,102.87,5351.47,Yes
+TEST0627,Female,1,No,Yes,62,No,No,Fiber optic,Yes,Yes,No,No,Yes,No internet service,Two year,Yes,Credit card,42.03,1305.54,Yes
+TEST0628,Male,0,Yes,Yes,52,Yes,No,DSL,No,Yes,No internet service,No,No,No internet service,Two year,No,Bank transfer,96.71,5153.89,Yes
+TEST0629,Female,0,Yes,No,30,No,No phone service,DSL,No,No,No internet service,No,Yes,No,Two year,Yes,Bank transfer,44.36,2984.7,No
+TEST0630,Male,0,Yes,Yes,20,No,No phone service,Fiber optic,No internet service,Yes,Yes,No internet service,No internet service,No,Month-to-month,No,Mailed check,41.12,620.99,No
+TEST0631,Male,1,Yes,No,10,Yes,Yes,No,Yes,No internet service,No internet service,No internet service,No,Yes,Month-to-month,Yes,Mailed check,94.3,2316.0,Yes
+TEST0632,Female,1,No,Yes,43,Yes,No,Fiber optic,No internet service,Yes,Yes,No internet service,No,No,Month-to-month,No,Credit card,87.95,1040.94,No
+TEST0633,Male,1,Yes,No,27,Yes,No,DSL,No internet service,Yes,No internet service,No,Yes,No internet service,Month-to-month,Yes,Credit card,108.74,7534.39,No
+TEST0634,Female,0,No,Yes,27,No,No phone service,DSL,No,Yes,No internet service,No internet service,No,No internet service,Month-to-month,Yes,Mailed check,95.21,2400.36,Yes
+TEST0635,Female,1,Yes,No,12,Yes,Yes,Fiber optic,Yes,Yes,No internet service,No internet service,Yes,No internet service,One year,No,Bank transfer,81.81,4976.54,No
+TEST0636,Female,1,Yes,Yes,33,Yes,No,No,No,Yes,No internet service,No,Yes,No,Two year,No,Mailed check,30.02,2384.52,No
+TEST0637,Male,0,Yes,Yes,66,No,No phone service,No,Yes,No,No,Yes,Yes,No internet service,Month-to-month,Yes,Credit card,28.32,619.5,No
+TEST0638,Female,1,Yes,No,44,No,No phone service,DSL,Yes,No,No,No,Yes,Yes,One year,No,Electronic check,100.53,3054.19,Yes
+TEST0639,Female,1,No,Yes,10,No,No,No,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,101.51,460.47,Yes
+TEST0640,Female,1,Yes,Yes,23,No,No,No,No,No internet service,No internet service,No,No internet service,Yes,One year,Yes,Mailed check,115.45,343.45,No
+TEST0641,Female,0,No,Yes,45,No,Yes,Fiber optic,Yes,No internet service,No internet service,No internet service,Yes,Yes,One year,No,Credit card,119.91,8166.63,No
+TEST0642,Male,1,No,No,13,No,No phone service,DSL,No internet service,Yes,No,Yes,No,Yes,Two year,Yes,Mailed check,50.95,6104.75,No
+TEST0643,Female,0,No,Yes,25,No,No,No,No,No internet service,No internet service,No internet service,No,No,One year,Yes,Bank transfer,73.09,8469.38,No
+TEST0644,Female,1,Yes,No,25,Yes,No,Fiber optic,No,No,No,No,No internet service,No,Two year,Yes,Electronic check,93.01,5712.44,No
+TEST0645,Female,0,No,Yes,8,Yes,No phone service,Fiber optic,No internet service,Yes,Yes,No internet service,No,Yes,Month-to-month,Yes,Mailed check,41.33,2785.97,No
+TEST0646,Male,1,No,Yes,65,No,Yes,DSL,Yes,No,No,No,No internet service,Yes,One year,No,Bank transfer,46.07,700.75,Yes
+TEST0647,Male,0,No,No,63,Yes,No phone service,DSL,No internet service,No internet service,No,Yes,Yes,No,Two year,Yes,Mailed check,52.58,5352.26,Yes
+TEST0648,Female,1,No,No,67,Yes,No phone service,DSL,No,No,No internet service,No,No,Yes,Two year,Yes,Bank transfer,77.81,6699.38,No
+TEST0649,Male,0,No,No,4,No,No,Fiber optic,No internet service,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,54.24,5660.81,Yes
+TEST0650,Female,1,No,No,15,No,No,DSL,No,Yes,Yes,No,No internet service,No,Month-to-month,Yes,Mailed check,51.26,5584.87,No
+TEST0651,Male,0,No,No,41,Yes,Yes,DSL,No internet service,Yes,No,No internet service,No,No internet service,One year,Yes,Credit card,85.1,2891.75,No
+TEST0652,Female,1,Yes,No,64,No,No phone service,No,Yes,No internet service,Yes,No internet service,No internet service,No,Two year,No,Mailed check,28.34,3964.99,Yes
+TEST0653,Male,0,Yes,No,57,No,No,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,117.74,8374.19,No
+TEST0654,Male,0,Yes,Yes,35,No,No phone service,DSL,Yes,No internet service,No internet service,Yes,No,No internet service,Two year,No,Electronic check,81.68,562.86,Yes
+TEST0655,Male,1,No,Yes,7,Yes,Yes,DSL,No internet service,No internet service,Yes,No internet service,No,Yes,One year,Yes,Credit card,76.41,2084.18,Yes
+TEST0656,Female,0,No,Yes,22,Yes,No phone service,DSL,No,Yes,No,Yes,Yes,No,Month-to-month,No,Electronic check,95.69,4402.79,Yes
+TEST0657,Female,0,Yes,Yes,8,Yes,No,Fiber optic,No internet service,No internet service,No,Yes,No,Yes,One year,Yes,Electronic check,73.42,7416.58,No
+TEST0658,Female,0,No,No,53,Yes,No,Fiber optic,Yes,No,No,Yes,No internet service,Yes,One year,No,Electronic check,63.38,3280.05,Yes
+TEST0659,Male,0,No,Yes,30,Yes,Yes,DSL,No,No internet service,No,No,No internet service,Yes,One year,No,Credit card,55.71,753.9,No
+TEST0660,Female,1,Yes,Yes,11,Yes,Yes,Fiber optic,No internet service,No,No,No,No,Yes,Two year,No,Mailed check,106.9,503.34,No
+TEST0661,Male,1,Yes,No,19,No,No phone service,DSL,Yes,Yes,No internet service,Yes,No internet service,No,Two year,Yes,Electronic check,34.92,4177.55,Yes
+TEST0662,Female,1,No,No,18,Yes,Yes,DSL,No,No,No,Yes,No internet service,No internet service,Two year,Yes,Electronic check,76.69,7517.76,No
+TEST0663,Female,1,Yes,No,23,Yes,No,DSL,Yes,No,No internet service,Yes,Yes,No,One year,Yes,Electronic check,45.4,8321.1,Yes
+TEST0664,Female,0,Yes,Yes,15,No,Yes,DSL,Yes,No internet service,Yes,No internet service,No internet service,No internet service,Two year,No,Electronic check,86.52,5277.64,No
+TEST0665,Female,0,No,No,61,Yes,No,DSL,No internet service,Yes,No internet service,No internet service,Yes,No,Month-to-month,No,Credit card,58.5,2747.02,No
+TEST0666,Male,0,Yes,Yes,59,No,Yes,No,No,Yes,No,No internet service,No internet service,No internet service,Month-to-month,No,Credit card,21.52,8165.28,No
+TEST0667,Male,0,Yes,Yes,13,No,Yes,Fiber optic,Yes,No,No internet service,No internet service,No,Yes,Month-to-month,No,Bank transfer,99.34,8205.03,No
+TEST0668,Male,1,No,Yes,20,Yes,No,Fiber optic,Yes,No,Yes,Yes,No internet service,No internet service,One year,No,Electronic check,27.9,7862.34,Yes
+TEST0669,Male,0,Yes,Yes,36,Yes,No phone service,DSL,No,No internet service,Yes,Yes,No,No,One year,Yes,Credit card,88.35,4494.86,Yes
+TEST0670,Male,1,No,No,67,Yes,No,No,Yes,Yes,No internet service,Yes,No internet service,No,Two year,Yes,Bank transfer,22.59,6694.72,Yes
+TEST0671,Male,1,No,No,17,Yes,No phone service,Fiber optic,Yes,Yes,No,No internet service,No,No internet service,Two year,No,Mailed check,38.9,2525.03,Yes
+TEST0672,Female,1,Yes,Yes,36,No,No phone service,No,Yes,Yes,No internet service,Yes,Yes,Yes,One year,No,Bank transfer,86.51,5452.81,Yes
+TEST0673,Male,0,No,No,26,Yes,No phone service,DSL,No,Yes,Yes,Yes,No internet service,No internet service,One year,Yes,Bank transfer,38.27,5881.06,No
+TEST0674,Female,0,No,No,53,No,No phone service,No,Yes,No internet service,No,No,Yes,No,Month-to-month,Yes,Mailed check,42.54,3544.73,No
+TEST0675,Female,0,Yes,Yes,27,Yes,No,No,No,No,No,No,No,No,Two year,Yes,Electronic check,95.01,5989.67,No
+TEST0676,Male,0,No,No,60,Yes,Yes,DSL,No,No internet service,No,No internet service,Yes,No internet service,One year,No,Credit card,43.43,4409.44,No
+TEST0677,Female,1,No,No,61,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No,One year,Yes,Electronic check,114.2,6192.57,Yes
+TEST0678,Male,0,Yes,No,62,Yes,No phone service,No,No internet service,No internet service,No,No,Yes,Yes,Two year,No,Electronic check,52.07,7197.91,No
+TEST0679,Male,1,No,Yes,44,No,No,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,No,Bank transfer,71.31,107.94,Yes
+TEST0680,Male,0,Yes,Yes,63,Yes,No phone service,No,No,No internet service,Yes,No,No internet service,No,One year,No,Bank transfer,64.07,4394.98,Yes
+TEST0681,Female,1,Yes,Yes,56,Yes,No phone service,DSL,No,Yes,Yes,No internet service,No,Yes,Two year,Yes,Mailed check,25.34,8411.03,No
+TEST0682,Female,1,No,No,72,No,No phone service,No,Yes,No internet service,Yes,No internet service,No,Yes,Two year,Yes,Bank transfer,100.71,3258.25,Yes
+TEST0683,Male,0,No,Yes,53,Yes,No phone service,No,No internet service,No internet service,Yes,Yes,Yes,No,One year,No,Credit card,81.2,5398.23,Yes
+TEST0684,Female,1,No,Yes,65,No,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,Yes,Credit card,88.3,1298.91,No
+TEST0685,Male,0,No,No,7,No,No phone service,No,Yes,Yes,No internet service,No,Yes,No internet service,Two year,No,Mailed check,24.01,5808.2,No
+TEST0686,Female,1,Yes,Yes,6,No,No phone service,DSL,No internet service,No internet service,No internet service,No,No,No,Two year,No,Bank transfer,69.54,8177.29,Yes
+TEST0687,Male,1,Yes,No,3,Yes,No phone service,DSL,No,No internet service,Yes,Yes,Yes,No internet service,Two year,Yes,Electronic check,23.2,4527.99,No
+TEST0688,Male,0,Yes,No,21,Yes,No phone service,No,Yes,No internet service,No internet service,No internet service,No,No internet service,Month-to-month,Yes,Bank transfer,67.73,5047.11,No
+TEST0689,Female,1,No,No,51,No,Yes,Fiber optic,Yes,Yes,No,No internet service,Yes,Yes,Two year,No,Bank transfer,53.65,5575.8,Yes
+TEST0690,Female,1,No,No,29,No,No phone service,Fiber optic,No,Yes,Yes,No internet service,Yes,Yes,Month-to-month,No,Credit card,58.03,4806.12,No
+TEST0691,Male,1,No,Yes,6,Yes,No phone service,No,No internet service,Yes,No internet service,Yes,No internet service,No,One year,No,Credit card,96.35,149.76,No
+TEST0692,Female,0,No,Yes,26,Yes,Yes,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,71.9,1018.51,No
+TEST0693,Female,1,No,No,15,No,No,No,No internet service,No,No internet service,Yes,No,No internet service,Two year,Yes,Credit card,57.47,6647.09,Yes
+TEST0694,Female,1,Yes,Yes,35,No,No phone service,DSL,Yes,No internet service,Yes,No,No internet service,Yes,One year,Yes,Credit card,82.1,3701.54,Yes
+TEST0695,Female,0,No,No,56,Yes,No,No,No internet service,No,No internet service,No,No,Yes,Two year,No,Electronic check,108.64,5283.02,No
+TEST0696,Female,1,No,Yes,34,No,Yes,Fiber optic,No internet service,No,No,No internet service,No internet service,Yes,Month-to-month,No,Credit card,52.85,1126.48,Yes
+TEST0697,Female,1,Yes,No,42,No,Yes,Fiber optic,Yes,No,No,No,No internet service,Yes,One year,No,Electronic check,94.63,1158.61,Yes
+TEST0698,Female,1,No,Yes,6,Yes,No,Fiber optic,No,Yes,Yes,Yes,No internet service,Yes,One year,Yes,Bank transfer,75.26,3487.75,No
+TEST0699,Male,0,Yes,No,26,No,Yes,No,Yes,No,No internet service,No internet service,No,No,Month-to-month,No,Electronic check,105.61,5460.64,Yes
+TEST0700,Male,0,Yes,Yes,26,No,No phone service,No,No,Yes,Yes,Yes,Yes,No internet service,One year,No,Bank transfer,23.45,1769.47,No
+TEST0701,Female,0,No,Yes,21,Yes,No phone service,DSL,No,No internet service,Yes,Yes,No internet service,Yes,Two year,Yes,Bank transfer,27.87,7578.81,No
+TEST0702,Male,0,No,Yes,26,Yes,No,DSL,No,No internet service,No internet service,Yes,No,Yes,One year,No,Electronic check,24.65,5148.83,No
+TEST0703,Female,1,Yes,No,70,No,Yes,Fiber optic,No,Yes,No,No,No internet service,Yes,One year,Yes,Bank transfer,62.03,3180.38,Yes
+TEST0704,Male,0,No,No,32,No,No phone service,DSL,No internet service,No,No internet service,No,No,No internet service,Month-to-month,Yes,Credit card,60.1,5213.73,Yes
+TEST0705,Male,1,Yes,No,27,No,Yes,No,Yes,No internet service,No internet service,No,No internet service,No internet service,Two year,Yes,Bank transfer,102.3,2554.15,No
+TEST0706,Female,1,Yes,No,46,No,No phone service,No,Yes,Yes,No,No internet service,Yes,Yes,Month-to-month,Yes,Electronic check,92.24,5791.02,Yes
+TEST0707,Female,1,No,No,33,Yes,No,DSL,No internet service,No internet service,No,Yes,No internet service,No,One year,No,Mailed check,29.03,628.89,No
+TEST0708,Male,1,No,Yes,18,Yes,Yes,No,No,Yes,No internet service,No internet service,No,Yes,Two year,No,Electronic check,44.38,3605.52,Yes
+TEST0709,Male,0,Yes,No,11,No,No phone service,Fiber optic,No,Yes,No internet service,Yes,No,No,Two year,Yes,Mailed check,68.94,6036.1,Yes
+TEST0710,Female,0,Yes,No,43,Yes,No,No,No internet service,No,No,No internet service,No,No,Two year,Yes,Mailed check,81.23,3592.12,No
+TEST0711,Male,0,Yes,No,33,No,No phone service,DSL,No,Yes,Yes,Yes,No,Yes,One year,Yes,Mailed check,76.86,4568.26,Yes
+TEST0712,Female,1,Yes,No,60,No,No phone service,Fiber optic,Yes,Yes,No,No internet service,No internet service,Yes,Two year,No,Credit card,116.67,5235.4,No
+TEST0713,Female,1,Yes,No,11,No,Yes,Fiber optic,No,No internet service,Yes,No internet service,Yes,No internet service,Month-to-month,No,Mailed check,96.56,6023.63,Yes
+TEST0714,Male,1,Yes,Yes,42,No,Yes,No,No,No,No,No,Yes,Yes,Two year,No,Credit card,43.31,6725.54,No
+TEST0715,Male,1,Yes,No,39,No,Yes,DSL,No,No internet service,No,Yes,Yes,No internet service,Month-to-month,No,Mailed check,49.59,1049.59,No
+TEST0716,Male,0,Yes,Yes,54,Yes,No,Fiber optic,No,Yes,No,No,No internet service,No,Month-to-month,No,Mailed check,48.15,2452.33,No
+TEST0717,Male,1,Yes,No,55,Yes,Yes,DSL,No internet service,No internet service,No internet service,Yes,Yes,No,Two year,Yes,Bank transfer,80.75,3896.33,No
+TEST0718,Female,1,Yes,No,49,Yes,No,DSL,No,No,No internet service,No,Yes,Yes,Month-to-month,Yes,Bank transfer,42.67,8136.3,No
+TEST0719,Male,0,No,No,7,Yes,No phone service,No,No,No internet service,No internet service,No,No internet service,No,Month-to-month,No,Bank transfer,48.38,565.02,Yes
+TEST0720,Female,1,Yes,No,12,No,No,Fiber optic,No internet service,Yes,No,No,Yes,No,Two year,Yes,Electronic check,89.6,8184.64,Yes
+TEST0721,Male,1,Yes,Yes,20,No,Yes,DSL,No,Yes,No internet service,No internet service,Yes,No internet service,One year,No,Bank transfer,54.57,5589.78,Yes
+TEST0722,Female,1,No,Yes,53,No,No phone service,DSL,Yes,No internet service,Yes,No internet service,Yes,No,Two year,Yes,Credit card,71.63,41.16,No
+TEST0723,Male,1,No,No,32,No,No,No,No,Yes,No internet service,No internet service,Yes,No,One year,No,Bank transfer,95.63,6938.87,No
+TEST0724,Male,1,No,Yes,17,Yes,No phone service,Fiber optic,Yes,No internet service,No,Yes,No,Yes,One year,No,Bank transfer,22.28,2772.62,Yes
+TEST0725,Female,0,Yes,Yes,65,No,No,No,No internet service,Yes,No,Yes,No,Yes,Two year,No,Electronic check,52.98,2314.07,Yes
+TEST0726,Female,1,Yes,No,56,No,Yes,Fiber optic,No,Yes,Yes,Yes,No internet service,No,One year,Yes,Electronic check,103.51,6895.73,Yes
+TEST0727,Male,1,No,No,62,Yes,Yes,DSL,Yes,No internet service,No internet service,No internet service,No,No internet service,One year,No,Electronic check,107.9,5999.17,No
+TEST0728,Male,1,Yes,No,51,No,No phone service,No,No,No internet service,Yes,No internet service,No internet service,No,Two year,No,Credit card,85.76,5083.06,No
+TEST0729,Male,1,No,Yes,29,No,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,One year,No,Electronic check,99.24,4609.55,Yes
+TEST0730,Male,0,Yes,Yes,70,Yes,No phone service,DSL,Yes,No,Yes,No,No,Yes,Two year,Yes,Mailed check,117.89,5672.02,Yes
+TEST0731,Female,0,Yes,Yes,64,No,No,Fiber optic,No internet service,Yes,No internet service,Yes,No internet service,Yes,Two year,Yes,Electronic check,87.07,4781.55,Yes
+TEST0732,Female,1,Yes,Yes,49,Yes,Yes,DSL,No internet service,No internet service,Yes,No internet service,No,No internet service,Month-to-month,No,Mailed check,39.87,7773.77,Yes
+TEST0733,Male,0,Yes,Yes,32,Yes,No phone service,DSL,Yes,Yes,No,Yes,Yes,Yes,Two year,No,Electronic check,74.61,4149.84,No
+TEST0734,Female,0,No,No,65,No,No phone service,No,No internet service,No internet service,No internet service,Yes,Yes,No internet service,One year,Yes,Mailed check,61.99,1738.26,No
+TEST0735,Male,1,No,Yes,61,Yes,Yes,Fiber optic,No,Yes,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer,70.58,528.55,No
+TEST0736,Male,0,Yes,Yes,56,No,Yes,Fiber optic,No internet service,Yes,Yes,No internet service,No,No,Month-to-month,No,Credit card,88.64,6954.8,Yes
+TEST0737,Male,0,Yes,No,13,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Mailed check,114.94,2008.19,No
+TEST0738,Female,1,No,No,33,No,No,DSL,No,No,No,Yes,No internet service,Yes,One year,Yes,Credit card,112.27,5355.82,No
+TEST0739,Female,0,No,Yes,20,Yes,Yes,DSL,No internet service,No internet service,Yes,Yes,No internet service,No,Two year,Yes,Mailed check,87.63,6759.21,No
+TEST0740,Female,0,No,Yes,9,Yes,Yes,DSL,No,No,Yes,No,No internet service,No internet service,Two year,Yes,Mailed check,31.4,7489.04,No
+TEST0741,Male,0,No,Yes,3,Yes,No phone service,Fiber optic,No internet service,No,Yes,No,No internet service,No,One year,Yes,Electronic check,31.54,3146.04,Yes
+TEST0742,Female,0,No,No,24,No,Yes,No,Yes,No,No internet service,Yes,No,No,Month-to-month,Yes,Mailed check,58.54,3606.01,Yes
+TEST0743,Male,0,No,No,47,Yes,Yes,No,No,Yes,No internet service,No,No,Yes,One year,No,Credit card,73.13,5957.29,No
+TEST0744,Male,1,No,Yes,20,Yes,No,No,Yes,No,No internet service,No,Yes,Yes,Month-to-month,Yes,Bank transfer,78.29,6943.42,Yes
+TEST0745,Male,0,Yes,Yes,28,Yes,Yes,Fiber optic,No internet service,Yes,No,Yes,No,No,One year,No,Credit card,67.39,6986.64,No
+TEST0746,Male,1,Yes,Yes,43,Yes,No phone service,No,No internet service,No,Yes,Yes,No,Yes,One year,No,Bank transfer,95.75,4865.12,No
+TEST0747,Male,0,No,No,41,No,No phone service,Fiber optic,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,100.71,111.54,Yes
+TEST0748,Male,1,No,No,23,Yes,Yes,No,Yes,No internet service,Yes,Yes,Yes,No,One year,Yes,Bank transfer,55.74,8083.35,No
+TEST0749,Male,0,No,Yes,52,Yes,No phone service,Fiber optic,No internet service,No,No,No internet service,No internet service,Yes,Month-to-month,Yes,Credit card,71.46,7869.97,Yes
+TEST0750,Female,0,No,No,24,Yes,No,Fiber optic,No,No internet service,No,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,97.18,781.25,Yes
+TEST0751,Male,1,Yes,No,70,No,Yes,DSL,Yes,No,No internet service,No,No internet service,No,Two year,No,Electronic check,109.13,4920.24,Yes
+TEST0752,Female,0,No,No,13,No,No,No,No,Yes,No,No,No internet service,No,Two year,Yes,Electronic check,56.16,655.44,Yes
+TEST0753,Male,0,No,Yes,27,No,No phone service,No,Yes,No internet service,No internet service,No,No,No,Two year,Yes,Electronic check,36.75,8043.7,No
+TEST0754,Female,0,No,No,69,Yes,Yes,DSL,No,No,No internet service,No internet service,No,No,Two year,Yes,Electronic check,43.61,1499.72,No
+TEST0755,Female,1,No,No,53,No,Yes,Fiber optic,Yes,Yes,No,Yes,No,No internet service,One year,Yes,Electronic check,41.02,4015.78,Yes
+TEST0756,Male,0,No,No,12,No,Yes,Fiber optic,Yes,Yes,No internet service,No internet service,Yes,No internet service,Two year,No,Electronic check,27.12,3744.18,No
+TEST0757,Female,1,Yes,No,34,Yes,No,DSL,No,No,Yes,Yes,No,Yes,Two year,Yes,Credit card,70.11,6049.51,No
+TEST0758,Male,0,Yes,Yes,43,No,Yes,DSL,No,Yes,No,Yes,No,No,Month-to-month,No,Mailed check,86.3,4567.27,Yes
+TEST0759,Male,1,Yes,No,47,No,Yes,Fiber optic,No internet service,No,No,Yes,Yes,No,Two year,Yes,Credit card,68.32,6446.79,No
+TEST0760,Female,1,Yes,No,25,No,No,No,No,No,No internet service,Yes,Yes,No internet service,One year,Yes,Electronic check,26.65,4025.74,No
+TEST0761,Female,0,No,Yes,15,No,No,Fiber optic,Yes,No,No internet service,Yes,Yes,No internet service,Two year,No,Electronic check,100.85,2281.2,Yes
+TEST0762,Female,1,Yes,No,42,No,Yes,DSL,No,No,No,No internet service,No,Yes,Month-to-month,Yes,Credit card,28.23,8034.05,No
+TEST0763,Female,1,No,No,4,No,Yes,No,No,No internet service,No internet service,No,No,No internet service,Two year,No,Mailed check,117.92,6674.64,No
+TEST0764,Female,1,Yes,Yes,38,Yes,No,Fiber optic,No,No internet service,No,No,No internet service,No,Month-to-month,No,Electronic check,31.76,833.66,No
+TEST0765,Female,1,Yes,Yes,37,Yes,Yes,DSL,No,No,No internet service,No,No internet service,No,Month-to-month,No,Mailed check,88.15,7665.0,No
+TEST0766,Male,0,No,No,10,No,No phone service,No,No,No internet service,No internet service,No,No internet service,No,One year,No,Electronic check,113.44,1159.61,Yes
+TEST0767,Male,1,No,Yes,32,Yes,No phone service,No,Yes,No,No internet service,No internet service,No,Yes,Two year,Yes,Mailed check,63.38,1026.3,Yes
+TEST0768,Male,0,No,No,6,Yes,No phone service,DSL,No internet service,No,No,No,No internet service,No,Month-to-month,No,Bank transfer,109.93,6146.73,Yes
+TEST0769,Male,1,No,Yes,3,Yes,Yes,DSL,No,No,No,No internet service,Yes,No internet service,Month-to-month,No,Bank transfer,38.4,1586.7,Yes
+TEST0770,Female,1,Yes,No,38,No,No phone service,Fiber optic,No internet service,No,No internet service,No,No,Yes,One year,No,Electronic check,66.56,6030.68,Yes
+TEST0771,Female,0,Yes,Yes,19,Yes,Yes,Fiber optic,No internet service,No internet service,Yes,No internet service,Yes,No,One year,No,Credit card,47.8,26.46,No
+TEST0772,Male,0,Yes,Yes,46,Yes,Yes,No,No,Yes,No,No,No,Yes,One year,No,Bank transfer,30.89,6469.48,Yes
+TEST0773,Female,1,No,Yes,25,No,No,No,No,No,No internet service,No internet service,Yes,No internet service,Two year,Yes,Mailed check,118.77,6770.3,No
+TEST0774,Male,1,No,No,39,No,No,Fiber optic,No,Yes,No,Yes,Yes,Yes,Two year,Yes,Electronic check,61.42,2866.88,Yes
+TEST0775,Male,0,No,No,54,No,Yes,DSL,Yes,No,No,No,No,No,Month-to-month,No,Electronic check,113.67,2023.69,Yes
+TEST0776,Male,1,Yes,No,16,No,Yes,DSL,No,Yes,No,No,No internet service,No,One year,Yes,Bank transfer,116.56,312.91,Yes
+TEST0777,Female,0,No,No,21,Yes,No phone service,Fiber optic,No,Yes,Yes,Yes,No internet service,No,One year,No,Credit card,61.45,3208.79,No
+TEST0778,Female,1,Yes,No,44,Yes,No phone service,DSL,Yes,No internet service,Yes,Yes,No,No internet service,Month-to-month,Yes,Mailed check,43.8,601.37,No
+TEST0779,Female,0,No,Yes,3,No,No,Fiber optic,No,Yes,No,No internet service,No internet service,No internet service,Two year,No,Bank transfer,25.22,8125.2,No
+TEST0780,Female,1,Yes,Yes,36,Yes,No,Fiber optic,No internet service,No internet service,No,No internet service,Yes,No internet service,Two year,No,Electronic check,54.51,911.27,Yes
+TEST0781,Female,1,Yes,Yes,37,No,No,DSL,Yes,Yes,Yes,Yes,Yes,No,Month-to-month,No,Mailed check,73.64,3361.82,No
+TEST0782,Male,1,Yes,Yes,17,No,No,Fiber optic,No,Yes,No,Yes,Yes,No internet service,Month-to-month,Yes,Electronic check,23.07,6728.44,Yes
+TEST0783,Male,1,Yes,No,7,No,No phone service,No,Yes,No internet service,No,No,No internet service,No,Two year,No,Bank transfer,94.95,3543.87,No
+TEST0784,Male,1,No,Yes,71,Yes,No phone service,No,No internet service,No,No internet service,Yes,No internet service,Yes,Two year,Yes,Credit card,92.93,5078.28,No
+TEST0785,Female,1,No,Yes,17,Yes,No,Fiber optic,No,Yes,No,Yes,No internet service,No,Month-to-month,Yes,Credit card,112.56,1202.4,No
+TEST0786,Female,0,No,No,1,Yes,Yes,No,No,Yes,No internet service,Yes,No,Yes,Month-to-month,Yes,Credit card,50.56,5394.84,Yes
+TEST0787,Male,1,Yes,No,19,Yes,Yes,DSL,No,No internet service,Yes,Yes,No,Yes,One year,No,Credit card,23.76,7493.03,Yes
+TEST0788,Female,0,No,No,34,Yes,Yes,No,No,No internet service,Yes,No,Yes,No internet service,Month-to-month,No,Mailed check,101.99,1421.85,Yes
+TEST0789,Female,1,No,Yes,72,No,No phone service,No,No,No,No internet service,Yes,No internet service,No internet service,Month-to-month,No,Credit card,76.17,1520.89,Yes
+TEST0790,Male,1,Yes,Yes,58,No,Yes,No,Yes,No internet service,Yes,No internet service,No internet service,No,One year,No,Mailed check,37.96,2438.57,No
+TEST0791,Female,1,No,Yes,6,Yes,No phone service,No,No internet service,No,No,Yes,No,Yes,Two year,No,Bank transfer,67.78,2277.92,No
+TEST0792,Male,1,No,No,64,Yes,No,No,No internet service,Yes,No,No internet service,No internet service,No internet service,Month-to-month,Yes,Bank transfer,35.34,8021.35,Yes
+TEST0793,Male,1,No,No,13,Yes,Yes,DSL,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,No,Credit card,24.11,5120.96,No
+TEST0794,Female,0,Yes,Yes,32,No,No phone service,Fiber optic,No,No internet service,Yes,No,No internet service,No internet service,One year,No,Electronic check,42.43,7302.33,No
+TEST0795,Male,0,Yes,Yes,23,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,No,One year,No,Mailed check,68.07,4227.25,No
+TEST0796,Male,0,Yes,No,35,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,Month-to-month,No,Electronic check,83.48,8148.54,Yes
+TEST0797,Male,1,Yes,Yes,65,No,No phone service,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Mailed check,53.38,7589.99,Yes
+TEST0798,Male,1,No,No,20,No,Yes,No,No,Yes,Yes,No,Yes,No internet service,Two year,No,Bank transfer,67.88,5158.96,Yes
+TEST0799,Female,1,No,No,63,No,No phone service,Fiber optic,Yes,No internet service,No,No,No internet service,Yes,Two year,No,Credit card,51.99,6851.78,Yes
+TEST0800,Male,1,No,No,31,Yes,No phone service,Fiber optic,No internet service,No internet service,Yes,Yes,No,No,Two year,No,Electronic check,53.48,2736.12,Yes
+TEST0801,Male,0,No,No,26,Yes,No,No,No,No,Yes,No,Yes,No internet service,Two year,No,Bank transfer,113.87,258.73,No
+TEST0802,Male,1,Yes,No,57,No,No,DSL,No,Yes,Yes,No,No,No internet service,Two year,No,Credit card,40.75,3100.48,Yes
+TEST0803,Female,1,Yes,No,34,Yes,Yes,Fiber optic,No internet service,No,No,No internet service,No internet service,No,One year,Yes,Electronic check,22.06,3375.49,Yes
+TEST0804,Female,0,Yes,Yes,7,Yes,No,No,Yes,No internet service,Yes,No internet service,Yes,No,Two year,No,Mailed check,98.57,5969.02,Yes
+TEST0805,Male,1,No,Yes,69,Yes,No phone service,DSL,No internet service,No internet service,Yes,No,No,Yes,Two year,Yes,Credit card,65.88,7892.2,No
+TEST0806,Female,0,Yes,No,11,No,No phone service,No,No,No,Yes,Yes,No,Yes,Two year,No,Electronic check,84.46,8397.75,Yes
+TEST0807,Male,0,No,Yes,43,No,No phone service,DSL,No internet service,No internet service,No,Yes,Yes,Yes,One year,No,Credit card,46.29,5510.98,No
+TEST0808,Female,0,No,Yes,72,Yes,No phone service,Fiber optic,No,Yes,Yes,Yes,No internet service,Yes,Two year,No,Bank transfer,85.69,336.99,No
+TEST0809,Female,1,Yes,No,7,Yes,Yes,Fiber optic,Yes,No,No internet service,Yes,Yes,No internet service,Month-to-month,No,Bank transfer,87.41,7486.32,No
+TEST0810,Female,1,Yes,No,20,No,No phone service,Fiber optic,No,No,No,Yes,No,No internet service,Two year,No,Bank transfer,71.3,3011.19,No
+TEST0811,Female,0,Yes,No,25,Yes,No,No,No,No,No,No,Yes,No internet service,Two year,Yes,Credit card,71.91,538.96,Yes
+TEST0812,Female,1,No,Yes,64,No,Yes,DSL,No,Yes,Yes,No internet service,No internet service,No,Two year,No,Mailed check,108.82,1094.57,Yes
+TEST0813,Female,0,No,No,9,No,No,DSL,No internet service,No internet service,Yes,No internet service,Yes,No internet service,Two year,Yes,Credit card,71.47,3071.75,Yes
+TEST0814,Female,0,Yes,No,52,No,No,Fiber optic,Yes,No,Yes,No,No internet service,Yes,Two year,Yes,Electronic check,21.85,5272.85,Yes
+TEST0815,Female,0,Yes,No,4,Yes,No phone service,Fiber optic,No,Yes,No internet service,No,Yes,Yes,Two year,Yes,Electronic check,105.14,1402.22,No
+TEST0816,Male,1,Yes,No,59,No,No,DSL,Yes,No internet service,Yes,No internet service,No internet service,No internet service,One year,No,Credit card,38.64,4837.59,No
+TEST0817,Female,0,Yes,No,18,No,No,Fiber optic,No internet service,Yes,No,No internet service,Yes,Yes,One year,No,Bank transfer,37.88,4651.17,Yes
+TEST0818,Female,0,No,No,61,Yes,No phone service,DSL,No,No internet service,No,No,No internet service,No,Month-to-month,Yes,Electronic check,96.34,1526.9,Yes
+TEST0819,Male,0,Yes,No,58,Yes,Yes,Fiber optic,No,No internet service,No,No internet service,No,Yes,One year,Yes,Mailed check,40.33,2009.85,No
+TEST0820,Female,1,No,Yes,19,Yes,No,DSL,No internet service,No internet service,No internet service,No,No internet service,No,Two year,Yes,Mailed check,28.67,4154.48,Yes
+TEST0821,Male,1,Yes,Yes,6,Yes,No,No,Yes,No internet service,No,Yes,No internet service,Yes,One year,Yes,Mailed check,82.71,5459.08,No
+TEST0822,Female,1,Yes,No,66,Yes,No phone service,No,No internet service,No,No internet service,Yes,No internet service,No internet service,Month-to-month,Yes,Bank transfer,82.13,6008.79,Yes
+TEST0823,Female,0,Yes,No,68,No,No,No,No,Yes,Yes,No internet service,No internet service,No internet service,Two year,No,Bank transfer,86.1,7707.26,Yes
+TEST0824,Male,0,No,Yes,36,Yes,No phone service,No,No internet service,No internet service,No internet service,No,No,No internet service,Month-to-month,Yes,Mailed check,100.68,6529.39,Yes
+TEST0825,Male,1,No,Yes,37,No,No phone service,No,No,No internet service,No,Yes,No,No,Month-to-month,No,Electronic check,62.99,7384.66,No
+TEST0826,Male,0,Yes,Yes,35,Yes,No phone service,DSL,Yes,Yes,Yes,Yes,Yes,Yes,One year,No,Bank transfer,61.43,459.39,Yes
+TEST0827,Male,1,No,Yes,7,Yes,No phone service,No,Yes,No,No internet service,No internet service,No,Yes,Month-to-month,Yes,Bank transfer,119.9,4988.02,Yes
+TEST0828,Female,0,Yes,Yes,50,Yes,No,DSL,No,No,No internet service,No internet service,Yes,No,Two year,Yes,Mailed check,23.35,4628.28,No
+TEST0829,Male,0,Yes,Yes,67,No,No,Fiber optic,No internet service,No,No internet service,No,No,No internet service,Two year,No,Bank transfer,94.07,5846.2,Yes
+TEST0830,Male,0,No,No,39,No,No,Fiber optic,Yes,No,No internet service,Yes,Yes,No,Two year,Yes,Credit card,95.56,7329.96,Yes
+TEST0831,Female,1,No,No,62,No,Yes,DSL,No internet service,No internet service,No internet service,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer,99.36,6484.32,No
+TEST0832,Female,0,No,Yes,57,Yes,No phone service,DSL,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,115.63,906.77,Yes
+TEST0833,Male,1,No,No,32,Yes,No phone service,DSL,Yes,Yes,No internet service,No internet service,No,Yes,Month-to-month,No,Electronic check,106.55,7247.99,Yes
+TEST0834,Female,0,Yes,Yes,50,Yes,Yes,No,No internet service,Yes,No,No internet service,No,No internet service,Month-to-month,No,Credit card,107.89,564.68,No
+TEST0835,Female,1,Yes,No,11,Yes,No phone service,DSL,No,No,No internet service,Yes,Yes,No internet service,Month-to-month,Yes,Credit card,39.91,1259.28,Yes
+TEST0836,Male,1,No,No,50,Yes,No,No,No,Yes,Yes,No,No,Yes,One year,Yes,Electronic check,53.38,314.46,Yes
+TEST0837,Female,1,Yes,Yes,38,No,Yes,DSL,No,No internet service,No,Yes,No,No,Two year,Yes,Credit card,59.14,6619.47,Yes
+TEST0838,Male,1,No,No,59,Yes,No phone service,DSL,No internet service,No,No,Yes,No,No internet service,One year,Yes,Bank transfer,53.46,7633.4,No
+TEST0839,Male,1,No,Yes,23,Yes,No phone service,Fiber optic,No internet service,No internet service,No,No internet service,No internet service,Yes,Month-to-month,No,Electronic check,65.92,7179.3,No
+TEST0840,Male,0,Yes,No,66,Yes,No phone service,DSL,No,No internet service,No internet service,Yes,Yes,No,One year,Yes,Electronic check,20.84,3553.87,Yes
+TEST0841,Male,0,Yes,Yes,47,No,Yes,No,No,No,Yes,No internet service,Yes,No internet service,Two year,Yes,Credit card,47.31,2839.96,No
+TEST0842,Female,1,Yes,No,8,No,No phone service,DSL,Yes,Yes,Yes,No,No,Yes,One year,No,Bank transfer,36.24,7412.26,Yes
+TEST0843,Female,1,No,Yes,45,No,No phone service,DSL,Yes,No,No,No,Yes,No,One year,No,Credit card,41.45,4519.33,No
+TEST0844,Male,0,No,No,71,No,No phone service,Fiber optic,No internet service,No,Yes,No,No,Yes,Two year,No,Credit card,34.52,7121.05,No
+TEST0845,Male,0,No,No,23,No,Yes,Fiber optic,No internet service,No internet service,No,No,No internet service,No,One year,Yes,Electronic check,64.56,7518.14,Yes
+TEST0846,Female,0,Yes,Yes,71,No,Yes,DSL,No,Yes,Yes,No,No,No internet service,Month-to-month,No,Bank transfer,34.03,6174.36,No
+TEST0847,Female,0,Yes,Yes,70,Yes,No,No,No internet service,No,No internet service,Yes,No internet service,Yes,One year,No,Bank transfer,20.24,4448.01,No
+TEST0848,Male,1,No,Yes,55,No,No phone service,No,No internet service,No internet service,Yes,No,No,Yes,Month-to-month,No,Electronic check,88.11,4202.14,Yes
+TEST0849,Male,1,Yes,No,39,No,No phone service,Fiber optic,Yes,No,Yes,No internet service,Yes,Yes,Two year,No,Mailed check,107.87,3532.42,Yes
+TEST0850,Male,1,No,Yes,37,Yes,No phone service,DSL,No,Yes,No,No internet service,No,No internet service,Two year,Yes,Electronic check,24.03,6401.17,No
+TEST0851,Female,1,No,No,66,No,No phone service,DSL,Yes,No,Yes,No internet service,No,No,Month-to-month,No,Credit card,95.44,6114.49,No
+TEST0852,Male,1,No,Yes,53,No,No phone service,No,No,Yes,No internet service,Yes,No,No internet service,Month-to-month,No,Bank transfer,29.67,6578.65,No
+TEST0853,Male,0,Yes,No,49,No,No phone service,No,Yes,Yes,No internet service,No internet service,No internet service,No,One year,No,Electronic check,68.81,3905.81,Yes
+TEST0854,Male,0,Yes,Yes,5,Yes,Yes,Fiber optic,Yes,Yes,No internet service,Yes,No,Yes,One year,No,Credit card,72.64,4462.22,Yes
+TEST0855,Male,1,No,No,41,Yes,No phone service,No,Yes,No internet service,Yes,Yes,No internet service,Yes,Two year,Yes,Credit card,106.42,7953.79,No
+TEST0856,Female,0,Yes,Yes,13,Yes,Yes,Fiber optic,No,Yes,No,No internet service,No,No internet service,Month-to-month,Yes,Credit card,97.74,816.61,Yes
+TEST0857,Female,0,Yes,Yes,55,No,Yes,DSL,No,No internet service,No,No internet service,No internet service,Yes,Two year,No,Bank transfer,60.83,4127.88,No
+TEST0858,Male,0,No,No,19,No,No,DSL,Yes,No internet service,Yes,Yes,No internet service,No,One year,Yes,Bank transfer,103.73,566.36,Yes
+TEST0859,Female,1,No,No,67,No,No phone service,No,No,No,No,No internet service,No internet service,No,Month-to-month,No,Mailed check,32.66,8134.25,Yes
+TEST0860,Male,1,No,No,14,No,Yes,No,No internet service,No,Yes,Yes,No,Yes,Month-to-month,Yes,Credit card,46.74,2949.51,No
+TEST0861,Male,0,No,Yes,33,No,No,Fiber optic,No internet service,Yes,No,Yes,No internet service,Yes,Month-to-month,No,Electronic check,62.02,1426.06,No
+TEST0862,Male,1,Yes,Yes,48,No,No phone service,Fiber optic,Yes,No internet service,Yes,No internet service,Yes,No internet service,One year,No,Bank transfer,85.69,7748.05,Yes
+TEST0863,Female,1,No,No,61,No,Yes,DSL,Yes,Yes,No internet service,No,No,Yes,Month-to-month,No,Bank transfer,59.83,6562.4,No
+TEST0864,Male,1,Yes,No,50,No,No phone service,DSL,No,No,Yes,No internet service,Yes,No,Month-to-month,Yes,Bank transfer,111.52,8360.25,Yes
+TEST0865,Female,0,No,Yes,35,No,No,Fiber optic,No,No,No,Yes,No,Yes,Two year,Yes,Bank transfer,80.38,2823.17,Yes
+TEST0866,Female,1,No,No,29,Yes,Yes,No,Yes,No internet service,No internet service,No,Yes,Yes,Two year,No,Electronic check,61.2,4914.78,Yes
+TEST0867,Female,0,No,No,25,No,No,DSL,Yes,No,No,Yes,No internet service,No,Month-to-month,No,Electronic check,44.72,8233.87,No
+TEST0868,Female,1,No,No,34,No,No phone service,DSL,Yes,No internet service,Yes,No internet service,No internet service,Yes,Month-to-month,No,Bank transfer,38.41,7612.05,Yes
+TEST0869,Male,0,No,Yes,53,No,No,No,Yes,No,Yes,Yes,Yes,No internet service,Two year,No,Mailed check,91.9,421.99,Yes
+TEST0870,Male,0,No,Yes,72,Yes,No,DSL,No,No internet service,Yes,No,No,No internet service,One year,Yes,Credit card,82.03,5653.14,Yes
+TEST0871,Male,0,No,Yes,68,No,Yes,Fiber optic,No internet service,No internet service,Yes,No,No internet service,No,Two year,No,Bank transfer,36.18,1049.0,No
+TEST0872,Female,0,No,No,43,No,No,No,Yes,Yes,Yes,No,Yes,No,Two year,Yes,Credit card,60.64,2362.08,Yes
+TEST0873,Male,0,No,Yes,71,Yes,No phone service,Fiber optic,Yes,Yes,No internet service,Yes,No internet service,No,Two year,No,Mailed check,60.56,5438.01,Yes
+TEST0874,Female,0,Yes,Yes,23,Yes,No,Fiber optic,No internet service,No,No,Yes,Yes,No internet service,Two year,Yes,Credit card,69.92,7549.68,No
+TEST0875,Male,0,No,No,25,Yes,Yes,No,Yes,No,No internet service,No,No internet service,No,One year,No,Mailed check,47.73,1921.44,No
+TEST0876,Female,0,No,Yes,26,Yes,No,No,No internet service,Yes,No internet service,Yes,Yes,No,One year,Yes,Electronic check,54.56,5481.6,No
+TEST0877,Female,1,No,Yes,47,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No internet service,Two year,No,Bank transfer,113.59,5167.53,No
+TEST0878,Male,0,Yes,Yes,20,Yes,No phone service,No,No,No,Yes,No,No,Yes,Month-to-month,No,Electronic check,49.18,3099.67,Yes
+TEST0879,Female,1,Yes,Yes,57,No,No,DSL,No internet service,No internet service,Yes,Yes,No,Yes,One year,No,Mailed check,105.64,3329.87,Yes
+TEST0880,Female,1,Yes,Yes,55,No,No phone service,No,No,Yes,Yes,No internet service,Yes,Yes,One year,No,Credit card,106.81,7027.78,No
+TEST0881,Female,1,Yes,No,16,No,No phone service,No,Yes,Yes,No internet service,No internet service,No,No,Two year,No,Mailed check,44.3,7027.96,No
+TEST0882,Male,0,Yes,No,71,No,No phone service,DSL,No,Yes,Yes,Yes,No internet service,No internet service,One year,No,Credit card,90.05,8127.73,Yes
+TEST0883,Male,1,No,Yes,25,No,No,Fiber optic,Yes,No internet service,Yes,No,No,No internet service,Month-to-month,No,Mailed check,116.43,3474.48,Yes
+TEST0884,Male,1,No,Yes,37,No,No,No,No internet service,Yes,No internet service,No,No,No,Month-to-month,No,Mailed check,99.24,4127.28,Yes
+TEST0885,Female,0,Yes,Yes,25,Yes,No,DSL,Yes,No internet service,Yes,No internet service,No,No,One year,Yes,Bank transfer,85.95,7244.61,Yes
+TEST0886,Female,1,Yes,Yes,25,No,No phone service,DSL,Yes,Yes,No,No internet service,Yes,No internet service,One year,No,Electronic check,29.57,59.77,Yes
+TEST0887,Male,1,Yes,No,10,No,No,Fiber optic,Yes,No,No,No,No,No internet service,Month-to-month,Yes,Bank transfer,99.25,6622.3,Yes
+TEST0888,Male,1,No,Yes,4,Yes,No phone service,DSL,No internet service,Yes,No internet service,Yes,No,No internet service,Two year,Yes,Credit card,64.78,8153.59,No
+TEST0889,Female,1,Yes,Yes,22,Yes,Yes,No,No,No internet service,No internet service,No,No,No,One year,No,Electronic check,102.93,912.73,No
+TEST0890,Male,1,No,Yes,71,No,No,DSL,No,No,Yes,No,No internet service,No,Two year,No,Bank transfer,77.77,6963.64,Yes
+TEST0891,Male,0,Yes,Yes,58,No,No phone service,DSL,No,No,No internet service,No,Yes,No internet service,One year,Yes,Bank transfer,49.77,5531.79,Yes
+TEST0892,Male,1,No,No,57,No,No,No,Yes,No internet service,No internet service,No,No internet service,Yes,Month-to-month,Yes,Mailed check,79.31,276.78,No
+TEST0893,Male,0,Yes,No,20,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Credit card,55.04,7640.2,No
+TEST0894,Male,1,Yes,No,65,Yes,No phone service,Fiber optic,No,Yes,Yes,No internet service,Yes,Yes,Two year,Yes,Bank transfer,26.53,876.47,Yes
+TEST0895,Male,0,No,No,40,No,Yes,No,No internet service,No internet service,No internet service,No,Yes,Yes,Month-to-month,No,Electronic check,67.05,118.8,No
+TEST0896,Male,1,Yes,Yes,39,Yes,Yes,No,No internet service,No,No internet service,No internet service,No,No,One year,Yes,Electronic check,48.96,6783.15,Yes
+TEST0897,Male,0,No,No,37,Yes,Yes,DSL,No internet service,No,No internet service,No,Yes,No internet service,Two year,No,Credit card,26.16,4797.28,Yes
+TEST0898,Male,0,No,Yes,49,No,Yes,Fiber optic,No internet service,Yes,No,No internet service,No,No internet service,Two year,Yes,Bank transfer,103.1,644.55,Yes
+TEST0899,Female,0,No,No,69,Yes,Yes,No,No,Yes,No internet service,No internet service,Yes,No internet service,One year,Yes,Mailed check,65.26,6530.61,Yes
+TEST0900,Male,1,No,No,28,Yes,Yes,Fiber optic,No internet service,Yes,No internet service,No,No internet service,No internet service,Two year,No,Credit card,118.52,3181.34,Yes
+TEST0901,Male,0,Yes,Yes,64,No,No phone service,DSL,No internet service,No,No,No internet service,Yes,No internet service,Month-to-month,Yes,Credit card,79.27,7242.71,No
+TEST0902,Male,0,No,Yes,67,Yes,Yes,No,No internet service,Yes,No internet service,No internet service,No internet service,Yes,Month-to-month,Yes,Electronic check,99.27,448.17,Yes
+TEST0903,Male,1,No,Yes,55,No,No phone service,No,No internet service,No,No,No internet service,No internet service,No internet service,Two year,No,Credit card,39.74,8577.35,No
+TEST0904,Female,1,No,No,46,Yes,No,DSL,No internet service,No internet service,No,No internet service,No internet service,Yes,Month-to-month,No,Electronic check,31.1,4800.24,Yes
+TEST0905,Male,0,No,No,55,No,No,No,Yes,Yes,No,No,Yes,No,One year,No,Bank transfer,79.64,3965.27,No
+TEST0906,Male,0,No,No,41,No,No,DSL,No internet service,Yes,Yes,No,No internet service,No,One year,No,Mailed check,42.87,5331.27,No
+TEST0907,Female,0,No,No,44,No,Yes,No,No,No internet service,Yes,No,Yes,Yes,One year,Yes,Mailed check,46.07,6554.19,No
+TEST0908,Male,0,No,No,46,No,No phone service,Fiber optic,No,Yes,Yes,Yes,No internet service,No,Two year,Yes,Bank transfer,36.12,313.29,Yes
+TEST0909,Female,1,Yes,No,45,No,Yes,No,No internet service,No internet service,Yes,No internet service,Yes,No,Month-to-month,No,Electronic check,90.61,2990.05,Yes
+TEST0910,Female,1,Yes,No,46,No,Yes,No,No,No,Yes,No internet service,Yes,No,Month-to-month,Yes,Bank transfer,62.63,6791.77,No
+TEST0911,Female,0,Yes,No,62,Yes,Yes,No,Yes,No internet service,No internet service,No internet service,Yes,Yes,One year,Yes,Electronic check,118.07,4006.71,Yes
+TEST0912,Female,0,No,Yes,7,No,No,No,No internet service,No internet service,No,No,No internet service,No,Two year,No,Bank transfer,32.23,1682.19,Yes
+TEST0913,Female,0,No,Yes,13,Yes,Yes,No,No internet service,No,No internet service,Yes,No internet service,No,One year,No,Mailed check,28.5,1130.18,No
+TEST0914,Female,1,No,No,47,No,No phone service,DSL,No internet service,Yes,No,No internet service,No,Yes,Two year,No,Credit card,59.2,7937.18,No
+TEST0915,Male,1,Yes,Yes,13,Yes,No,DSL,No,No,No,No internet service,No,No,Two year,No,Credit card,75.62,6665.05,Yes
+TEST0916,Female,0,No,No,4,No,No phone service,DSL,Yes,No internet service,No,No,No internet service,No,Month-to-month,No,Mailed check,92.87,6104.55,No
+TEST0917,Female,0,Yes,No,21,No,No,Fiber optic,Yes,No internet service,Yes,No,Yes,Yes,One year,Yes,Electronic check,114.18,4465.64,No
+TEST0918,Male,1,Yes,Yes,63,No,No,DSL,Yes,No,No,No,No internet service,Yes,Two year,No,Electronic check,28.61,2330.07,Yes
+TEST0919,Female,0,No,Yes,24,No,Yes,No,Yes,No,Yes,No,Yes,No internet service,One year,Yes,Bank transfer,102.85,4142.23,Yes
+TEST0920,Female,0,Yes,No,12,Yes,No,Fiber optic,No internet service,Yes,Yes,Yes,No,No internet service,Month-to-month,Yes,Credit card,28.89,4962.05,Yes
+TEST0921,Female,1,No,No,24,Yes,No phone service,No,No internet service,No,No,No,No,No,Two year,Yes,Electronic check,97.76,7077.03,No
+TEST0922,Female,1,Yes,No,20,Yes,Yes,No,Yes,No internet service,No internet service,Yes,No internet service,Yes,Month-to-month,Yes,Credit card,108.52,3127.97,Yes
+TEST0923,Male,1,Yes,Yes,49,Yes,No,Fiber optic,No,No internet service,No,No internet service,No,Yes,Month-to-month,Yes,Credit card,60.93,2045.9,No
+TEST0924,Female,0,No,No,32,Yes,No phone service,No,Yes,No internet service,No internet service,Yes,No,No internet service,One year,Yes,Electronic check,57.73,2289.78,No
+TEST0925,Female,1,Yes,No,24,No,No phone service,DSL,No,No internet service,No,Yes,No internet service,No,Two year,No,Bank transfer,108.05,1284.22,Yes
+TEST0926,Female,0,No,No,70,No,Yes,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,Yes,Mailed check,63.5,5147.04,Yes
+TEST0927,Female,0,No,Yes,50,No,Yes,Fiber optic,No,No,No internet service,Yes,Yes,No internet service,Month-to-month,No,Mailed check,90.27,3180.1,Yes
+TEST0928,Male,0,Yes,No,19,No,No,DSL,No internet service,Yes,No internet service,Yes,Yes,No internet service,Two year,No,Electronic check,47.49,3340.09,No
+TEST0929,Female,0,Yes,No,5,Yes,No,No,No,No,Yes,Yes,No,Yes,Month-to-month,No,Bank transfer,112.91,7572.52,Yes
+TEST0930,Female,1,Yes,Yes,35,No,No phone service,Fiber optic,No,No,No internet service,No,Yes,No,Month-to-month,No,Electronic check,67.88,1833.77,Yes
+TEST0931,Male,0,Yes,No,32,Yes,No,Fiber optic,No,No,No internet service,No,No,No internet service,Month-to-month,Yes,Electronic check,22.74,5544.48,No
+TEST0932,Male,1,No,Yes,6,Yes,Yes,DSL,No internet service,No,No internet service,No internet service,No internet service,Yes,One year,No,Mailed check,35.57,3007.29,Yes
+TEST0933,Female,1,Yes,Yes,54,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No,No,Two year,Yes,Electronic check,78.01,4085.14,No
+TEST0934,Male,0,Yes,No,34,No,No,Fiber optic,No,No,No,No,No internet service,No internet service,One year,Yes,Mailed check,45.24,77.97,Yes
+TEST0935,Male,0,No,No,15,No,No,DSL,No internet service,Yes,No,Yes,No,No internet service,Two year,No,Credit card,99.62,5855.97,No
+TEST0936,Female,0,Yes,Yes,3,Yes,No phone service,No,Yes,Yes,No internet service,No,No,No,One year,No,Electronic check,41.37,8558.98,No
+TEST0937,Female,1,No,No,21,Yes,No phone service,DSL,Yes,Yes,Yes,Yes,No internet service,No,One year,No,Electronic check,28.94,7448.01,Yes
+TEST0938,Female,0,Yes,No,28,No,No,No,No,No internet service,No internet service,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer,53.37,2668.35,Yes
+TEST0939,Male,1,Yes,No,30,No,No,DSL,No,Yes,No,No internet service,No internet service,No,Month-to-month,Yes,Electronic check,100.99,8566.45,Yes
+TEST0940,Male,1,No,Yes,27,No,No phone service,No,No,No,No,No internet service,No,No internet service,One year,No,Mailed check,77.21,8470.5,Yes
+TEST0941,Male,0,No,Yes,34,Yes,No,Fiber optic,Yes,No,No internet service,No internet service,Yes,Yes,Two year,No,Mailed check,107.89,1379.1,Yes
+TEST0942,Male,1,No,No,47,Yes,No phone service,Fiber optic,Yes,No,No,No internet service,No,Yes,Month-to-month,No,Credit card,48.84,4051.38,Yes
+TEST0943,Male,1,No,No,25,No,No,No,No internet service,No,Yes,Yes,Yes,No internet service,Two year,Yes,Credit card,72.98,4870.12,Yes
+TEST0944,Female,0,Yes,No,66,No,No phone service,DSL,Yes,Yes,No,No internet service,No internet service,Yes,Month-to-month,No,Bank transfer,58.8,4621.54,Yes
+TEST0945,Male,1,No,No,14,Yes,Yes,No,Yes,Yes,No,Yes,No internet service,Yes,Two year,No,Bank transfer,42.0,3035.06,Yes
+TEST0946,Male,1,Yes,No,13,Yes,Yes,DSL,No,Yes,No internet service,No internet service,No,No,Month-to-month,No,Electronic check,42.58,813.02,Yes
+TEST0947,Female,0,No,No,13,Yes,Yes,Fiber optic,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,102.67,3968.62,Yes
+TEST0948,Female,0,No,Yes,19,No,Yes,No,No internet service,Yes,No,Yes,Yes,No internet service,Two year,Yes,Electronic check,110.79,3835.33,No
+TEST0949,Male,1,No,No,30,No,No,Fiber optic,Yes,No internet service,No,Yes,No,Yes,Month-to-month,Yes,Bank transfer,45.31,525.76,No
+TEST0950,Male,0,No,Yes,34,Yes,No phone service,Fiber optic,No internet service,Yes,No,Yes,No,No internet service,Month-to-month,No,Bank transfer,42.89,2893.96,Yes
+TEST0951,Female,1,No,No,29,No,No phone service,No,No internet service,No,No internet service,No internet service,No internet service,No,One year,Yes,Mailed check,60.08,7058.05,No
+TEST0952,Male,1,No,No,67,No,No,Fiber optic,No internet service,Yes,No,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,58.35,3338.2,No
+TEST0953,Female,0,No,Yes,48,No,Yes,Fiber optic,Yes,No,No,No,No internet service,Yes,Month-to-month,Yes,Bank transfer,110.98,5395.15,Yes
+TEST0954,Female,0,No,Yes,27,Yes,No,Fiber optic,No internet service,No,Yes,No internet service,No,No internet service,Two year,No,Credit card,78.07,1648.45,Yes
+TEST0955,Male,0,No,No,70,No,No phone service,DSL,Yes,No,No,No internet service,Yes,No internet service,Month-to-month,No,Bank transfer,35.55,3177.12,No
+TEST0956,Female,1,Yes,No,14,No,No,Fiber optic,Yes,No internet service,No internet service,No,Yes,Yes,Month-to-month,No,Credit card,44.12,5880.95,Yes
+TEST0957,Male,1,Yes,No,12,No,No,Fiber optic,No internet service,Yes,No,No,Yes,No,Two year,Yes,Credit card,31.9,6379.85,Yes
+TEST0958,Female,1,No,No,70,No,No,Fiber optic,No internet service,No internet service,Yes,No internet service,No,No,One year,Yes,Credit card,51.53,942.5,Yes
+TEST0959,Male,0,Yes,Yes,51,Yes,No,DSL,No,No,No,Yes,No internet service,No internet service,Month-to-month,No,Electronic check,114.96,2042.3,Yes
+TEST0960,Female,0,No,No,55,Yes,Yes,No,No internet service,No,No,No internet service,Yes,Yes,Two year,No,Bank transfer,74.03,2551.28,Yes
+TEST0961,Female,0,No,No,15,No,No phone service,No,Yes,Yes,No,Yes,No internet service,No internet service,Month-to-month,No,Mailed check,37.21,4822.25,Yes
+TEST0962,Female,0,Yes,Yes,36,Yes,No phone service,DSL,No internet service,Yes,Yes,No,No,Yes,Two year,No,Bank transfer,93.28,4230.13,No
+TEST0963,Male,0,No,Yes,65,No,No phone service,No,Yes,No,No,No internet service,No,No internet service,Month-to-month,No,Electronic check,66.52,6604.72,Yes
+TEST0964,Female,0,No,Yes,52,No,No phone service,No,Yes,No,No,No,No,No,One year,Yes,Mailed check,35.47,5560.93,Yes
+TEST0965,Female,1,Yes,Yes,11,No,No phone service,Fiber optic,Yes,No internet service,No internet service,Yes,No,Yes,Two year,Yes,Mailed check,46.82,2572.17,No
+TEST0966,Male,1,No,No,39,Yes,No,DSL,No internet service,No,Yes,No internet service,No internet service,No internet service,One year,Yes,Electronic check,56.25,7433.16,No
+TEST0967,Male,0,Yes,Yes,38,No,No,Fiber optic,No,No,No internet service,No internet service,No,No internet service,One year,No,Electronic check,109.42,8423.36,No
+TEST0968,Male,0,No,No,6,No,No phone service,DSL,No,Yes,No internet service,No,No internet service,No internet service,Month-to-month,No,Bank transfer,119.36,3756.72,No
+TEST0969,Male,0,No,No,11,Yes,Yes,DSL,No,No,Yes,No internet service,Yes,No,Two year,Yes,Mailed check,60.84,4233.98,No
+TEST0970,Female,1,Yes,Yes,9,Yes,No,Fiber optic,No internet service,No internet service,Yes,No internet service,No,No,One year,No,Bank transfer,92.81,2327.93,No
+TEST0971,Female,0,No,No,29,No,Yes,DSL,No internet service,No,Yes,No,No internet service,No,Month-to-month,No,Mailed check,107.39,8110.02,Yes
+TEST0972,Male,1,No,No,46,Yes,No,Fiber optic,Yes,No,Yes,Yes,Yes,No internet service,Two year,Yes,Mailed check,111.45,7369.94,No
+TEST0973,Male,0,Yes,Yes,16,No,No phone service,DSL,Yes,Yes,No internet service,Yes,No,Yes,Month-to-month,No,Credit card,74.14,7904.98,Yes
+TEST0974,Female,1,No,Yes,30,Yes,No phone service,Fiber optic,No internet service,Yes,No,No internet service,No,No internet service,Month-to-month,No,Bank transfer,78.01,6734.83,No
+TEST0975,Female,1,Yes,No,70,No,No,No,Yes,Yes,No internet service,Yes,No internet service,No internet service,One year,No,Credit card,76.24,5635.41,Yes
+TEST0976,Male,1,Yes,Yes,25,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,No,No internet service,One year,No,Electronic check,96.37,5156.45,No
+TEST0977,Male,1,No,No,52,Yes,Yes,No,No internet service,No,Yes,No,Yes,No,One year,No,Electronic check,30.08,1547.81,No
+TEST0978,Male,1,No,Yes,37,No,Yes,No,No internet service,Yes,No,Yes,No,Yes,Month-to-month,Yes,Mailed check,88.29,4999.67,No
+TEST0979,Female,0,Yes,No,3,Yes,No,No,Yes,No internet service,No,No internet service,Yes,No,Month-to-month,No,Credit card,56.9,2778.68,No
+TEST0980,Female,1,No,Yes,18,Yes,Yes,No,No,Yes,Yes,Yes,No internet service,No,Two year,No,Credit card,109.69,1318.23,Yes
+TEST0981,Male,0,No,No,39,Yes,No phone service,Fiber optic,No,No,Yes,Yes,No internet service,No internet service,Two year,No,Bank transfer,37.17,4757.82,Yes
+TEST0982,Male,1,No,Yes,42,Yes,No phone service,Fiber optic,No,Yes,Yes,Yes,Yes,No,Month-to-month,No,Bank transfer,23.24,3467.58,Yes
+TEST0983,Female,0,No,No,37,Yes,No,Fiber optic,No,No internet service,Yes,No,Yes,No internet service,One year,Yes,Credit card,39.0,7030.4,No
+TEST0984,Female,0,No,Yes,38,No,No,No,No,Yes,Yes,No,No,Yes,Two year,Yes,Electronic check,107.3,4984.17,No
+TEST0985,Female,0,Yes,No,68,No,No,Fiber optic,No,Yes,No,Yes,No internet service,Yes,One year,No,Electronic check,55.71,4945.89,Yes
+TEST0986,Female,0,Yes,No,41,Yes,No phone service,No,No,No,No,No,No internet service,Yes,Two year,No,Mailed check,50.53,1969.07,Yes
+TEST0987,Female,1,Yes,Yes,18,No,No phone service,No,No,No,No,No,No internet service,No internet service,One year,Yes,Credit card,93.7,947.86,Yes
+TEST0988,Female,0,Yes,Yes,55,No,No phone service,Fiber optic,Yes,No,No internet service,Yes,No,No,One year,Yes,Mailed check,85.27,4410.89,No
+TEST0989,Male,1,Yes,No,52,Yes,No phone service,Fiber optic,Yes,No,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,81.5,6199.64,Yes
+TEST0990,Male,0,Yes,Yes,32,Yes,No,No,No internet service,Yes,Yes,No internet service,No,Yes,Two year,Yes,Mailed check,93.18,6027.95,Yes
+TEST0991,Female,1,Yes,No,70,No,Yes,DSL,No,No,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Bank transfer,23.96,4453.6,Yes
+TEST0992,Female,0,No,No,35,Yes,Yes,DSL,Yes,No,Yes,No internet service,No internet service,No,One year,Yes,Credit card,65.46,2612.45,No
+TEST0993,Female,1,No,No,35,Yes,Yes,DSL,No internet service,Yes,No internet service,Yes,No,No internet service,Month-to-month,Yes,Credit card,59.56,8245.63,Yes
+TEST0994,Female,0,No,Yes,69,No,Yes,DSL,No internet service,No,No internet service,No internet service,No,No internet service,Month-to-month,Yes,Electronic check,110.75,4599.67,No
+TEST0995,Female,0,Yes,Yes,17,Yes,No phone service,DSL,No,No,No,No,No,Yes,Two year,No,Mailed check,78.16,8440.66,No
+TEST0996,Male,0,No,No,21,Yes,Yes,Fiber optic,No internet service,No internet service,No internet service,No internet service,No internet service,Yes,Two year,No,Bank transfer,77.57,223.85,No
+TEST0997,Male,0,Yes,No,37,Yes,No,DSL,Yes,No,No,No internet service,No,No,Month-to-month,Yes,Credit card,63.85,3495.63,No
+TEST0998,Female,0,Yes,No,16,No,No phone service,DSL,No internet service,No,No,No,Yes,No internet service,Two year,No,Credit card,76.91,1972.81,Yes
+TEST0999,Male,0,No,No,68,Yes,No phone service,DSL,Yes,Yes,No internet service,No,Yes,No,One year,No,Bank transfer,101.06,8031.94,Yes
+TEST1000,Male,0,No,No,29,No,Yes,DSL,Yes,No,No internet service,No,Yes,No,Two year,Yes,Mailed check,103.92,8037.23,Yes
