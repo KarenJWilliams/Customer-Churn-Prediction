@@ -1,3 +1,5 @@
+![alt text](https://github.com/KarenJWilliams/Customer-Churn-Prediction/blob/main/Website%20Image%201.jpg)?raw=true)
+
 # 📉 Customer Churn Prediction
 
 A *Data Science Capstone Project* built using Python, Machine Learning, and Streamlit to predict customer churn based on demographic and service-related data.  
