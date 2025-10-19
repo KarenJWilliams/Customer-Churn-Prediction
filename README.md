@@ -1,4 +1,4 @@
-![alt text](https://github.com/KarenJWilliams/Customer-Churn-Prediction/blob/main/Website%20Image%201.jpg)?raw=true)
+
 
 # 📉 Customer Churn Prediction
 
@@ -100,3 +100,9 @@ Deployed the final model using *Streamlit* for an interactive web dashboard.
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+#Sample Website Images
+![alt text](https://github.com/KarenJWilliams/Customer-Churn-Prediction/blob/main/Website%20Image%201.jpg)
+![alt text](https://github.com/KarenJWilliams/Customer-Churn-Prediction/blob/main/Website%20Image%202.jpg)
+![alt text](https://github.com/KarenJWilliams/Customer-Churn-Prediction/blob/main/Website%20Image%203.jpg)
+
+
